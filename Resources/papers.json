@@ -1,6 +1,11 @@
 [
 {
-  "Type": "Project",
+  "Type": "Collection",
+  "Name": "COVID-19 Resource Centre",
+  "Link": "https://www.thelancet.com/coronavirus"
+},
+{
+  "Type": "Group",
   "Name": "COVID-19-Modelling",
   "Link": "https://github.com/COVID-19-Modelling"
 },
@@ -15,7 +20,7 @@
   "Link": "https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/news--wuhan-coronavirus/?fbclid=IwAR1AOZTI8VaKoWvpvgh2AuXllWLJ52f8THVDdgfichcW8nXWvlVOLM8U3fc"
 },
 {
-  "Type": "Group",
+  "Type": "Science",
   "Name": "Coronavirus: the science explained",
   "Link": "https://coronavirusexplained.ukri.org/en/?fbclid=IwAR3y2rBIAQD__w0CEn_sasCkRjTL23e9jz8ZojVDYLCihgwmhBNiPX-DdHE"
 }
