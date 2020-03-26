@@ -26,7 +26,7 @@ $(function(){
         "enabled": false
       },
       "min": 0,
-      "max": 96,
+      "max": 64.954,
       "minPadding": 0,
       "floor": 0,
       "height": "100%",
@@ -62,469 +62,619 @@ $(function(){
     {
       "data": [
         {
-          "x": 4,
+          "x": 4.4,
           "y": 1,
-          "labels": "Case#01<br>Tested on 2020-01-20"
+          "labels": "<b>Case ID:<\/b>#01<br><b>Confirm at:<\/b>2020-01-21<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>55<br><b>Travelled to:<\/b>China<br><hr>"
         },
         {
           "x": 3,
           "y": 1,
-          "labels": "Case#03<br>Tested on 2020-01-23"
+          "labels": "<b>Case ID:<\/b>#03<br><b>Confirm at:<\/b>2020-01-24<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>55<br><b>Travelled to:<\/b>China<br><hr>"
         },
         {
           "x": 3,
           "y": 2,
-          "labels": "Case#04<br>Tested on 2020-01-25"
+          "labels": "<b>Case ID:<\/b>#04<br><b>Confirm at:<\/b>2020-01-26<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>55<br><b>Travelled to:<\/b>China<br><hr>"
         },
         {
           "x": 1,
           "y": 1,
-          "labels": "Case#09<br>Tested on 2020-01-28"
+          "labels": "<b>Case ID:<\/b>#09<br><b>Confirm at:<\/b>2020-01-30<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>F<br><b>Age group:<\/b>45<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#10<br><b>Infected at/in:<\/b>house<br><hr>"
         },
         {
           "x": 9,
           "y": 1,
-          "labels": "Case#10<br>Tested on 2020-01-30"
+          "labels": "<b>Case ID:<\/b>#10<br><b>Confirm at:<\/b>2020-01-31<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>45<br><b>Travelled to:<\/b>China<br><hr>"
         },
         {
           "x": 1,
           "y": 2,
-          "labels": "Case#12<br>Tested on 2020-02-04"
+          "labels": "<b>Case ID:<\/b>#12<br><b>Confirm at:<\/b>2020-02-06<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>45<br><b>Travelled to:<\/b>China<br><hr>"
         },
         {
           "x": 3,
           "y": 3,
-          "labels": "Case#13<br>Tested on 2020-02-04"
+          "labels": "<b>Case ID:<\/b>#13<br><b>Confirm at:<\/b>2020-02-06<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>China<br><hr>"
         },
         {
           "x": 9,
           "y": 2,
-          "labels": "Case#14<br>Tested on 2020-02-04"
+          "labels": "<b>Case ID:<\/b>#14<br><b>Confirm at:<\/b>2020-02-06<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>55<br><b>Travelled to:<\/b>Italy,Hong Kong<br><hr>"
         },
         {
           "x": 7,
           "y": 1,
-          "labels": "Case#15<br>Tested on 2020-02-04"
+          "labels": "<b>Case ID:<\/b>#15<br><b>Confirm at:<\/b>2020-02-06<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>55<br><b>Travelled to:<\/b>Italy,Hong Kong<br><hr>"
         },
         {
           "x": 4,
-          "y": 2,
-          "labels": "Case#16<br>Tested on 2020-02-05"
+          "y": 1,
+          "labels": "<b>Case ID:<\/b>#16<br><b>Confirm at:<\/b>2020-02-06<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>45<br><b>Travelled to:<\/b>Macau<br><hr>"
         },
         {
           "x": 11,
           "y": 1,
-          "labels": "Case#17<br>Tested on 2020-02-07"
+          "labels": "<b>Case ID:<\/b>#17<br><b>Confirm at:<\/b>2020-02-08<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>Italy,Hong Kong<br><hr>"
         },
         {
           "x": 7,
           "y": 2,
-          "labels": "Case#19<br>Tested on 2020-02-03"
+          "labels": "<b>Case ID:<\/b>#19<br><b>Confirm at:<\/b>2020-02-15<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>65<br><b>Travelled to:<\/b><br><hr>"
         },
         {
           "x": 10,
           "y": 1,
-          "labels": "Case#21<br>Tested on 2020-02-16"
+          "labels": "<b>Case ID:<\/b>#21<br><b>Confirm at:<\/b>2020-02-18<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>F<br><b>Age group:<\/b>85<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#19<br><b>Infected at/in:<\/b>family<br><hr>"
         },
         {
           "x": 19,
           "y": 1,
-          "labels": "Case#22<br>Tested on 2020-02-16"
+          "labels": "<b>Case ID:<\/b>#22<br><b>Confirm at:<\/b>2020-02-18<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#19<br><b>Infected at/in:<\/b>family<br><hr>"
         },
         {
           "x": 13,
           "y": 1,
-          "labels": "Case#23<br>Tested on 2020-02-16"
+          "labels": "<b>Case ID:<\/b>#23<br><b>Confirm at:<\/b>2020-02-19<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>F<br><b>Age group:<\/b>65<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#19<br><b>Infected at/in:<\/b>family<br><hr>"
         },
         {
           "x": 26,
           "y": 1,
-          "labels": "Case#24<br>Tested on 2020-02-17"
+          "labels": "<b>Case ID:<\/b>#24<br><b>Confirm at:<\/b>2020-02-19<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>65<br><b>Travelled to:<\/b>Taiwan<br><hr>"
         },
         {
           "x": 22,
           "y": 1,
-          "labels": "Case#25<br>Tested on 2020-02-19"
+          "labels": "<b>Case ID:<\/b>#25<br><b>Confirm at:<\/b>2020-02-21<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b><br><hr>"
         },
         {
           "x": 16,
           "y": 1,
-          "labels": "Case#27<br>Tested on 2020-02-21"
+          "labels": "<b>Case ID:<\/b>#27<br><b>Confirm at:<\/b>2020-02-23<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>85<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#28<br><b>Infected at/in:<\/b>house<br><hr>"
         },
         {
           "x": 21,
           "y": 1,
-          "labels": "Case#28<br>Tested on 2020-02-21"
+          "labels": "<b>Case ID:<\/b>#28<br><b>Confirm at:<\/b>2020-02-23<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>55<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#29<br><b>Infected at/in:<\/b>family<br><hr>"
         },
         {
           "x": 25,
           "y": 1,
-          "labels": "Case#29<br>Tested on 2020-02-23"
+          "labels": "<b>Case ID:<\/b>#29<br><b>Confirm at:<\/b>2020-02-24<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>45<br><b>Travelled to:<\/b>China<br><hr>"
         },
         {
           "x": 16,
           "y": 2,
-          "labels": "Case#30<br>Tested on 2020-02-22"
+          "labels": "<b>Case ID:<\/b>#30<br><b>Confirm at:<\/b>2020-02-24<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>F<br><b>Age group:<\/b>75<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#28<br><b>Infected at/in:<\/b>house<br><hr>"
         },
         {
           "x": 2,
           "y": 1,
-          "labels": "Case#33<br>Tested on 2020-02-27"
+          "labels": "<b>Case ID:<\/b>#33<br><b>Confirm at:<\/b>2020-02-28<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>Japan<br><hr>"
         },
         {
           "x": 5,
           "y": 1,
-          "labels": "Case#34<br>Tested on 2020-02-26"
+          "labels": "<b>Case ID:<\/b>#34<br><b>Confirm at:<\/b>2020-02-28<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>F<br><b>Age group:<\/b>55<br><b>Travelled to:<\/b><br><hr>"
         },
         {
-          "x": 6,
+          "x": 5.8,
           "y": 1,
-          "labels": "Case#35<br>Tested on 2020-02-28"
+          "labels": "<b>Case ID:<\/b>#35<br><b>Confirm at:<\/b>2020-02-29<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>NA<br><b>Age group:<\/b>55<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#34<br><b>Infected at/in:<\/b>hospital<br><hr>"
         },
         {
-          "x": 6,
+          "x": 5.6,
+          "y": 1,
+          "labels": "<b>Case ID:<\/b>#36<br><b>Confirm at:<\/b>2020-02-29<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>NA<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#34<br><b>Infected at/in:<\/b>hospital<br><hr>"
+        },
+        {
+          "x": 5.6,
           "y": 2,
-          "labels": "Case#36<br>Tested on 2020-02-28"
+          "labels": "<b>Case ID:<\/b>#37<br><b>Confirm at:<\/b>2020-02-29<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>NA<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#34<br><b>Infected at/in:<\/b>hospital<br><hr>"
         },
         {
-          "x": 6,
-          "y": 3,
-          "labels": "Case#37<br>Tested on 2020-02-28"
-        },
-        {
-          "x": 6,
-          "y": 4,
-          "labels": "Case#38<br>Tested on 2020-02-28"
+          "x": 5.8,
+          "y": 2,
+          "labels": "<b>Case ID:<\/b>#38<br><b>Confirm at:<\/b>2020-02-29<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>NA<br><b>Age group:<\/b>45<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#34<br><b>Infected at/in:<\/b>hospital<br><hr>"
         },
         {
           "x": 1,
           "y": 3,
-          "labels": "Case#39<br>Tested on 2020-02-21"
+          "labels": "<b>Case ID:<\/b>#39<br><b>Confirm at:<\/b>2020-02-29<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>65<br><b>Travelled to:<\/b>Egypt<br><hr>"
         },
         {
           "x": 7,
           "y": 3,
-          "labels": "Case#42<br>Tested on 2020-03-01"
+          "labels": "<b>Case ID:<\/b>#42<br><b>Confirm at:<\/b>2020-03-03<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>F<br><b>Age group:<\/b>55<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#34,#36<br><b>Infected at/in:<\/b>hospital<br><hr>"
         },
         {
           "x": 1,
           "y": 4,
-          "labels": "Case#43<br>Tested on 2020-03-04"
+          "labels": "<b>Case ID:<\/b>#43<br><b>Confirm at:<\/b>2020-03-05<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>F<br><b>Age group:<\/b>55<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#39<br><b>Infected at/in:<\/b>community<br><hr>"
         },
         {
           "x": 1,
           "y": 5,
-          "labels": "Case#44<br>Tested on 2020-03-04"
+          "labels": "<b>Case ID:<\/b>#44<br><b>Confirm at:<\/b>2020-03-05<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>Philippine<br><hr>"
         },
         {
           "x": 1,
           "y": 6,
-          "labels": "Case#46<br>Tested on 2020-03-08"
+          "labels": "<b>Case ID:<\/b>#46<br><b>Confirm at:<\/b>2020-03-10<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#34,#41<br><b>Infected at/in:<\/b>NA<br><hr>"
         },
         {
           "x": 1,
           "y": 7,
-          "labels": "Case#48<br>Tested on 2020-03-10"
+          "labels": "<b>Case ID:<\/b>#48<br><b>Confirm at:<\/b>2020-03-11<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>UK<br><hr>"
         },
         {
           "x": 2,
           "y": 2,
-          "labels": "Case#49<br>Tested on 2020-03-10"
+          "labels": "<b>Case ID:<\/b>#49<br><b>Confirm at:<\/b>2020-03-12<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>45<br><b>Travelled to:<\/b>Ireland,Belgium,Turkey<br><hr>"
         },
         {
-          "x": 8,
+          "x": 8.4,
           "y": 1,
-          "labels": "Case#50<br>Tested on 2020-03-10"
+          "labels": "<b>Case ID:<\/b>#50<br><b>Confirm at:<\/b>2020-03-13<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>50<br><b>Travelled to:<\/b><br><hr>"
+        },
+        {
+          "x": 0.8,
+          "y": 1,
+          "labels": "<b>Case ID:<\/b>#51<br><b>Confirm at:<\/b>2020-03-14<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>Netherland,Austria<br><hr>"
+        },
+        {
+          "x": 0.2,
+          "y": 1,
+          "labels": "<b>Case ID:<\/b>#53<br><b>Confirm at:<\/b>2020-03-14<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>Germany<br><hr>"
         },
         {
           "x": 1,
           "y": 8,
-          "labels": "Case#51<br>Tested on 2020-03-12"
+          "labels": "<b>Case ID:<\/b>#54<br><b>Confirm at:<\/b>2020-03-15<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>Thailand,Japan<br><hr>"
         },
         {
-          "x": 0.01,
+          "x": 2.8,
           "y": 1,
-          "labels": "Case#53<br>Tested on 2020-03-11"
+          "labels": "<b>Case ID:<\/b>#56<br><b>Confirm at:<\/b>2020-03-15<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>45<br><b>Travelled to:<\/b>Turkey,Dubai<br><hr>"
         },
         {
           "x": 1,
           "y": 9,
-          "labels": "Case#54<br>Tested on 2020-03-12"
-        },
-        {
-          "x": 3,
-          "y": 4,
-          "labels": "Case#56<br>Tested on 2020-03-13"
+          "labels": "<b>Case ID:<\/b>#58<br><b>Confirm at:<\/b>2020-03-15<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>Spain<br><hr>"
         },
         {
           "x": 1,
           "y": 10,
-          "labels": "Case#58<br>Tested on 2020-03-13"
-        },
-        {
-          "x": 1,
-          "y": 11,
-          "labels": "Case#59<br>Tested on 2020-03-13"
+          "labels": "<b>Case ID:<\/b>#59<br><b>Confirm at:<\/b>2020-03-15<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>15<br><b>Travelled to:<\/b>Greece<br><hr>"
         },
         {
           "x": 2,
           "y": 3,
-          "labels": "Case#62<br>Tested on 2020-03-14"
+          "labels": "<b>Case ID:<\/b>#62<br><b>Confirm at:<\/b>2020-03-16<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>65<br><b>Travelled to:<\/b>Philippine<br><hr>"
         },
         {
-          "x": 0.01,
+          "x": 0.2,
           "y": 2,
-          "labels": "Case#63<br>Tested on 2020-03-13"
+          "labels": "<b>Case ID:<\/b>#63<br><b>Confirm at:<\/b>2020-03-16<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>55<br><b>Travelled to:<\/b>Egypt<br><hr>"
+        },
+        {
+          "x": 1,
+          "y": 11,
+          "labels": "<b>Case ID:<\/b>#64<br><b>Confirm at:<\/b>2020-03-16<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>20<br><b>Travelled to:<\/b>Spain<br><hr>"
+        },
+        {
+          "x": 0.8,
+          "y": 2,
+          "labels": "<b>Case ID:<\/b>#65<br><b>Confirm at:<\/b>2020-03-16<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>55<br><b>Travelled to:<\/b>Turkey,Dubai<br><hr>"
+        },
+        {
+          "x": 0.8,
+          "y": 3,
+          "labels": "<b>Case ID:<\/b>#66<br><b>Confirm at:<\/b>2020-03-16<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>55<br><b>Travelled to:<\/b>Turkey,Dubai<br><hr>"
+        },
+        {
+          "x": 0.8,
+          "y": 4,
+          "labels": "<b>Case ID:<\/b>#67<br><b>Confirm at:<\/b>2020-03-16<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>65<br><b>Travelled to:<\/b>Turkey,Dubai<br><hr>"
+        },
+        {
+          "x": 2,
+          "y": 4,
+          "labels": "<b>Case ID:<\/b>#71<br><b>Confirm at:<\/b>2020-03-17<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>65<br><b>Travelled to:<\/b>Egypt<br><hr>"
         },
         {
           "x": 1,
           "y": 12,
-          "labels": "Case#64<br>Tested on 2020-03-15"
+          "labels": "<b>Case ID:<\/b>#74<br><b>Confirm at:<\/b>2020-03-17<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>Iceland<br><hr>"
+        },
+        {
+          "x": 5,
+          "y": 2,
+          "labels": "<b>Case ID:<\/b>#75<br><b>Confirm at:<\/b>2020-03-17<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>Germany<br><hr>"
+        },
+        {
+          "x": 4,
+          "y": 2,
+          "labels": "<b>Case ID:<\/b>#76<br><b>Confirm at:<\/b>2020-03-17<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>France<br><hr>"
         },
         {
           "x": 1,
           "y": 13,
-          "labels": "Case#65<br>Tested on 2020-03-15"
+          "labels": "<b>Case ID:<\/b>#78<br><b>Confirm at:<\/b>2020-03-18<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>55<br><b>Travelled to:<\/b>Germany<br><hr>"
+        },
+        {
+          "x": 2,
+          "y": 5,
+          "labels": "<b>Case ID:<\/b>#79<br><b>Confirm at:<\/b>2020-03-18<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>45<br><b>Travelled to:<\/b>UK<br><hr>"
         },
         {
           "x": 1,
           "y": 14,
-          "labels": "Case#66<br>Tested on 2020-03-15"
-        },
-        {
-          "x": 1,
-          "y": 15,
-          "labels": "Case#67<br>Tested on 2020-03-15"
-        },
-        {
-          "x": 2,
-          "y": 4,
-          "labels": "Case#71<br>Tested on 2020-03-15"
-        },
-        {
-          "x": 1,
-          "y": 16,
-          "labels": "Case#74<br>Tested on 2020-03-15"
-        },
-        {
-          "x": 5,
-          "y": 2,
-          "labels": "Case#75<br>Tested on 2020-03-13"
-        },
-        {
-          "x": 4,
-          "y": 3,
-          "labels": "Case#76<br>Tested on 2020-03-16"
-        },
-        {
-          "x": 1,
-          "y": 17,
-          "labels": "Case#78<br>Tested on 2020-03-16"
-        },
-        {
-          "x": 2,
-          "y": 5,
-          "labels": "Case#79<br>Tested on 2020-03-16"
-        },
-        {
-          "x": 1,
-          "y": 18,
-          "labels": "Case#80<br>Tested on 2020-03-17"
+          "labels": "<b>Case ID:<\/b>#80<br><b>Confirm at:<\/b>2020-03-18<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>Spain<br><hr>"
         },
         {
           "x": 3,
-          "y": 5,
-          "labels": "Case#82<br>Tested on 2020-03-14"
+          "y": 4,
+          "labels": "<b>Case ID:<\/b>#82<br><b>Confirm at:<\/b>2020-03-18<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>Turkey,Dubai<br><hr>"
         },
         {
           "x": 2,
           "y": 6,
-          "labels": "Case#85<br>Tested on 2020-03-16"
+          "labels": "<b>Case ID:<\/b>#85<br><b>Confirm at:<\/b>2020-03-18<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>US<br><hr>"
         },
         {
           "x": 4,
-          "y": 4,
-          "labels": "Case#86<br>Tested on 2020-03-16"
+          "y": 3,
+          "labels": "<b>Case ID:<\/b>#86<br><b>Confirm at:<\/b>2020-03-18<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>US<br><hr>"
         },
         {
           "x": 5,
           "y": 3,
-          "labels": "Case#87<br>Tested on 2020-03-16"
+          "labels": "<b>Case ID:<\/b>#87<br><b>Confirm at:<\/b>2020-03-18<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>UK,Italy,France<br><hr>"
         },
         {
           "x": 10,
           "y": 2,
-          "labels": "Case#88<br>Tested on 2020-03-16"
+          "labels": "<b>Case ID:<\/b>#88<br><b>Confirm at:<\/b>2020-03-18<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>Spain<br><hr>"
         },
         {
           "x": 2,
           "y": 7,
-          "labels": "Case#89<br>Tested on 2020-03-16"
+          "labels": "<b>Case ID:<\/b>#89<br><b>Confirm at:<\/b>2020-03-18<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>US<br><hr>"
         },
         {
           "x": 10,
           "y": 3,
-          "labels": "Case#90<br>Tested on 2020-03-16"
+          "labels": "<b>Case ID:<\/b>#90<br><b>Confirm at:<\/b>2020-03-18<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>Spain<br><hr>"
         },
         {
           "x": 8,
-          "y": 2,
-          "labels": "Case#91<br>Tested on 2020-03-16"
+          "y": 1,
+          "labels": "<b>Case ID:<\/b>#91<br><b>Confirm at:<\/b>2020-03-18<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>France,Spain,UK<br><hr>"
         },
         {
           "x": 3,
-          "y": 6,
-          "labels": "Case#93<br>Tested on 2020-03-16"
+          "y": 5,
+          "labels": "<b>Case ID:<\/b>#93<br><b>Confirm at:<\/b>2020-03-18<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>Qatar<br><hr>"
         },
         {
           "x": 6,
-          "y": 5,
-          "labels": "Case#95<br>Tested on 2020-03-16"
+          "y": 1,
+          "labels": "<b>Case ID:<\/b>#95<br><b>Confirm at:<\/b>2020-03-18<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>Indonesia<br><hr>"
         },
         {
           "x": 9,
           "y": 3,
-          "labels": "Case#96<br>Tested on 2020-03-16"
+          "labels": "<b>Case ID:<\/b>#96<br><b>Confirm at:<\/b>2020-03-18<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>UK<br><hr>"
         },
         {
           "x": 2,
           "y": 8,
-          "labels": "Case#97<br>Tested on 2020-03-16"
+          "labels": "<b>Case ID:<\/b>#97<br><b>Confirm at:<\/b>2020-03-18<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>Switzerland<br><hr>"
         },
         {
           "x": 3,
-          "y": 7,
-          "labels": "Case#98<br>Tested on 2020-03-16"
+          "y": 6,
+          "labels": "<b>Case ID:<\/b>#98<br><b>Confirm at:<\/b>2020-03-18<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>France<br><hr>"
         },
         {
           "x": 8,
-          "y": 3,
-          "labels": "Case#99<br>Tested on 2020-03-16"
+          "y": 2,
+          "labels": "<b>Case ID:<\/b>#99<br><b>Confirm at:<\/b>2020-03-18<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>Philippine<br><hr>"
         },
         {
           "x": 1,
-          "y": 19,
-          "labels": "Case#103<br>Tested on 2020-03-16"
+          "y": 15,
+          "labels": "<b>Case ID:<\/b>#103<br><b>Confirm at:<\/b>2020-03-19<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>15<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#59<br><b>Infected at/in:<\/b>NA<br><hr>"
         },
         {
           "x": 5,
           "y": 4,
-          "labels": "Case#106<br>Tested on 2020-03-17"
+          "labels": "<b>Case ID:<\/b>#106<br><b>Confirm at:<\/b>2020-03-19<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>Spain<br><hr>"
         },
         {
-          "x": 1,
-          "y": 20,
-          "labels": "Case#107<br>Tested on 2020-03-18"
+          "x": 0.6,
+          "y": 1,
+          "labels": "<b>Case ID:<\/b>#107<br><b>Confirm at:<\/b>2020-03-19<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>55<br><b>Travelled to:<\/b>France<br><hr>"
         },
         {
           "x": 10,
           "y": 4,
-          "labels": "Case#109<br>Tested on 2020-03-17"
+          "labels": "<b>Case ID:<\/b>#109<br><b>Confirm at:<\/b>2020-03-20<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>85<br><b>Travelled to:<\/b>Egypt<br><hr>"
+        },
+        {
+          "x": 3,
+          "y": 7,
+          "labels": "<b>Case ID:<\/b>#111<br><b>Confirm at:<\/b>2020-03-20<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>55<br><b>Travelled to:<\/b>Egypt<br><hr>"
+        },
+        {
+          "x": 4,
+          "y": 4,
+          "labels": "<b>Case ID:<\/b>#112<br><b>Confirm at:<\/b>2020-03-20<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>France<br><hr>"
+        },
+        {
+          "x": 1,
+          "y": 16,
+          "labels": "<b>Case ID:<\/b>#113<br><b>Confirm at:<\/b>2020-03-20<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>US,Mexico<br><hr>"
+        },
+        {
+          "x": 1,
+          "y": 17,
+          "labels": "<b>Case ID:<\/b>#114<br><b>Confirm at:<\/b>2020-03-20<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>15<br><b>Travelled to:<\/b>Spain,Germany,UK<br><hr>"
+        },
+        {
+          "x": 1,
+          "y": 18,
+          "labels": "<b>Case ID:<\/b>#115<br><b>Confirm at:<\/b>2020-03-20<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>Poland<br><hr>"
+        },
+        {
+          "x": 6,
+          "y": 2,
+          "labels": "<b>Case ID:<\/b>#116<br><b>Confirm at:<\/b>2020-03-20<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>UK<br><hr>"
         },
         {
           "x": 3,
           "y": 8,
-          "labels": "Case#111<br>Tested on 2020-03-18"
-        },
-        {
-          "x": 4,
-          "y": 5,
-          "labels": "Case#112<br>Tested on 2020-03-17"
-        },
-        {
-          "x": 1,
-          "y": 21,
-          "labels": "Case#113<br>Tested on 2020-03-18"
-        },
-        {
-          "x": 1,
-          "y": 22,
-          "labels": "Case#114<br>Tested on 2020-03-18"
-        },
-        {
-          "x": 1,
-          "y": 23,
-          "labels": "Case#115<br>Tested on 2020-03-18"
-        },
-        {
-          "x": 6,
-          "y": 6,
-          "labels": "Case#116<br>Tested on 2020-03-18"
-        },
-        {
-          "x": 3,
-          "y": 9,
-          "labels": "Case#117<br>Tested on 2020-03-17"
+          "labels": "<b>Case ID:<\/b>#117<br><b>Confirm at:<\/b>2020-03-20<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>45<br><b>Travelled to:<\/b>Portugal,Spain<br><hr>"
         },
         {
           "x": 5,
           "y": 5,
-          "labels": "Case#119<br>Tested on 2020-03-18"
+          "labels": "<b>Case ID:<\/b>#119<br><b>Confirm at:<\/b>2020-03-20<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>65<br><b>Travelled to:<\/b>US<br><hr>"
         },
         {
           "x": 4,
-          "y": 6,
-          "labels": "Case#120<br>Tested on 2020-03-18"
+          "y": 5,
+          "labels": "<b>Case ID:<\/b>#120<br><b>Confirm at:<\/b>2020-03-20<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>France<br><hr>"
         },
         {
           "x": 1,
-          "y": 24,
-          "labels": "Case#122<br>Tested on 2020-03-19"
+          "y": 19,
+          "labels": "<b>Case ID:<\/b>#122<br><b>Confirm at:<\/b>2020-03-20<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>65<br><b>Travelled to:<\/b>Turkey,Dubai<br><hr>"
         },
         {
           "x": 1,
-          "y": 25,
-          "labels": "Case#123<br>Tested on 2020-03-19"
+          "y": 20,
+          "labels": "<b>Case ID:<\/b>#123<br><b>Confirm at:<\/b>2020-03-20<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>45<br><b>Travelled to:<\/b>Singapore,US,Japan<br><hr>"
         },
         {
           "x": 1,
-          "y": 26,
-          "labels": "Case#124<br>Tested on 2020-03-18"
+          "y": 21,
+          "labels": "<b>Case ID:<\/b>#124<br><b>Confirm at:<\/b>2020-03-20<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#160<br><b>Infected at/in:<\/b>work<br><hr>"
         },
         {
           "x": 12,
           "y": 1,
-          "labels": "Case#125<br>Tested on 2020-03-19"
+          "labels": "<b>Case ID:<\/b>#125<br><b>Confirm at:<\/b>2020-03-20<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>Netherland,Austria<br><hr>"
         },
         {
           "x": 2,
           "y": 9,
-          "labels": "Case#126<br>Tested on 2020-03-18"
+          "labels": "<b>Case ID:<\/b>#126<br><b>Confirm at:<\/b>2020-03-20<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>Canada<br><hr>"
         },
         {
           "x": 6,
-          "y": 7,
-          "labels": "Case#127<br>Tested on 2020-03-18"
+          "y": 3,
+          "labels": "<b>Case ID:<\/b>#127<br><b>Confirm at:<\/b>2020-03-20<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>Spain<br><hr>"
         },
         {
           "x": 14,
           "y": 1,
-          "labels": "Case#128<br>Tested on 2020-03-19"
+          "labels": "<b>Case ID:<\/b>#128<br><b>Confirm at:<\/b>2020-03-20<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>France,luxembourg,Belgium,Germany<br><hr>"
         },
         {
           "x": 2,
           "y": 10,
-          "labels": "Case#129<br>Tested on 2020-03-18"
+          "labels": "<b>Case ID:<\/b>#129<br><b>Confirm at:<\/b>2020-03-20<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>45<br><b>Travelled to:<\/b>US<br><hr>"
         },
         {
           "x": 1,
-          "y": 27,
-          "labels": "Case#130<br>Tested on 2020-03-18"
+          "y": 22,
+          "labels": "<b>Case ID:<\/b>#130<br><b>Confirm at:<\/b>2020-03-20<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>F<br><b>Age group:<\/b>15<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#59<br><b>Infected at/in:<\/b>NA<br><hr>"
         },
         {
           "x": 2,
           "y": 11,
-          "labels": "Case#131<br>Tested on 2020-03-16"
+          "labels": "<b>Case ID:<\/b>#131<br><b>Confirm at:<\/b>2020-03-20<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>45<br><b>Travelled to:<\/b>Portugal,Spain<br><hr>"
         },
         {
           "x": 6,
-          "y": 8,
-          "labels": "Case#132<br>Tested on 2020-03-18"
+          "y": 4,
+          "labels": "<b>Case ID:<\/b>#132<br><b>Confirm at:<\/b>2020-03-20<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>Philippine<br><hr>"
+        },
+        {
+          "x": 1,
+          "y": 23,
+          "labels": "<b>Case ID:<\/b>#133<br><b>Confirm at:<\/b>2020-03-20<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>15<br><b>Travelled to:<\/b>UK<br><hr>"
+        },
+        {
+          "x": 10,
+          "y": 5,
+          "labels": "<b>Case ID:<\/b>#136<br><b>Confirm at:<\/b>2020-03-21<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>Turkey<br><hr>"
+        },
+        {
+          "x": 5,
+          "y": 6,
+          "labels": "<b>Case ID:<\/b>#137<br><b>Confirm at:<\/b>2020-03-21<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>US<br><hr>"
+        },
+        {
+          "x": 1,
+          "y": 24,
+          "labels": "<b>Case ID:<\/b>#138<br><b>Confirm at:<\/b>2020-03-21<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>France<br><hr>"
+        },
+        {
+          "x": 3,
+          "y": 9,
+          "labels": "<b>Case ID:<\/b>#139<br><b>Confirm at:<\/b>2020-03-21<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>UK<br><hr>"
+        },
+        {
+          "x": 3,
+          "y": 10,
+          "labels": "<b>Case ID:<\/b>#141<br><b>Confirm at:<\/b>2020-03-21<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>UK<br><hr>"
+        },
+        {
+          "x": 6,
+          "y": 5,
+          "labels": "<b>Case ID:<\/b>#142<br><b>Confirm at:<\/b>2020-03-21<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>UK<br><hr>"
+        },
+        {
+          "x": 5,
+          "y": 7,
+          "labels": "<b>Case ID:<\/b>#143<br><b>Confirm at:<\/b>2020-03-21<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>55<br><b>Travelled to:<\/b>Czech Republic,US<br><hr>"
+        },
+        {
+          "x": 13,
+          "y": 2,
+          "labels": "<b>Case ID:<\/b>#144<br><b>Confirm at:<\/b>2020-03-21<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>Czech Republic,US<br><hr>"
+        },
+        {
+          "x": 3,
+          "y": 11,
+          "labels": "<b>Case ID:<\/b>#145<br><b>Confirm at:<\/b>2020-03-21<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>US<br><hr>"
+        },
+        {
+          "x": 1,
+          "y": 25,
+          "labels": "<b>Case ID:<\/b>#146<br><b>Confirm at:<\/b>2020-03-21<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>55<br><b>Travelled to:<\/b>South Africa<br><hr>"
+        },
+        {
+          "x": 2,
+          "y": 12,
+          "labels": "<b>Case ID:<\/b>#147<br><b>Confirm at:<\/b>2020-03-21<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>Indonesia<br><hr>"
+        },
+        {
+          "x": 3,
+          "y": 12,
+          "labels": "<b>Case ID:<\/b>#148<br><b>Confirm at:<\/b>2020-03-21<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>US<br><hr>"
+        },
+        {
+          "x": 4,
+          "y": 6,
+          "labels": "<b>Case ID:<\/b>#149<br><b>Confirm at:<\/b>2020-03-21<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>75<br><b>Travelled to:<\/b>UK<br><hr>"
+        },
+        {
+          "x": 1,
+          "y": 26,
+          "labels": "<b>Case ID:<\/b>#150<br><b>Confirm at:<\/b>2020-03-21<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>UK<br><hr>"
+        },
+        {
+          "x": 1,
+          "y": 27,
+          "labels": "<b>Case ID:<\/b>#151<br><b>Confirm at:<\/b>2020-03-21<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>Netherland<br><hr>"
+        },
+        {
+          "x": 4,
+          "y": 7,
+          "labels": "<b>Case ID:<\/b>#152<br><b>Confirm at:<\/b>2020-03-21<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>UK<br><hr>"
         },
         {
           "x": 1,
           "y": 28,
-          "labels": "Case#133<br>Tested on 2020-03-19"
+          "labels": "<b>Case ID:<\/b>#153<br><b>Confirm at:<\/b>2020-03-21<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>France<br><hr>"
+        },
+        {
+          "x": 1,
+          "y": 29,
+          "labels": "<b>Case ID:<\/b>#154<br><b>Confirm at:<\/b>2020-03-22<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>US<br><hr>"
+        },
+        {
+          "x": 9,
+          "y": 4,
+          "labels": "<b>Case ID:<\/b>#156<br><b>Confirm at:<\/b>2020-03-22<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b><br><hr>"
+        },
+        {
+          "x": 2,
+          "y": 13,
+          "labels": "<b>Case ID:<\/b>#157<br><b>Confirm at:<\/b>2020-03-22<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>New Zealand<br><hr>"
+        },
+        {
+          "x": 2,
+          "y": 14,
+          "labels": "<b>Case ID:<\/b>#158<br><b>Confirm at:<\/b>2020-03-22<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>15<br><b>Travelled to:<\/b>US<br><hr>"
+        },
+        {
+          "x": 1,
+          "y": 30,
+          "labels": "<b>Case ID:<\/b>#159<br><b>Confirm at:<\/b>2020-03-22<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>65<br><b>Travelled to:<\/b>US<br><hr>"
+        },
+        {
+          "x": 6,
+          "y": 6,
+          "labels": "<b>Case ID:<\/b>#160<br><b>Confirm at:<\/b>2020-03-22<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>55<br><b>Travelled to:<\/b>US<br><hr>"
+        },
+        {
+          "x": 3,
+          "y": 13,
+          "labels": "<b>Case ID:<\/b>#163<br><b>Confirm at:<\/b>2020-03-22<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>France<br><hr>"
+        },
+        {
+          "x": 8,
+          "y": 3,
+          "labels": "<b>Case ID:<\/b>#164<br><b>Confirm at:<\/b>2020-03-22<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>Philippines<br><hr>"
+        },
+        {
+          "x": 12,
+          "y": 2,
+          "labels": "<b>Case ID:<\/b>#165<br><b>Confirm at:<\/b>2020-03-22<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>Italy<br><hr>"
+        },
+        {
+          "x": 3,
+          "y": 14,
+          "labels": "<b>Case ID:<\/b>#166<br><b>Confirm at:<\/b>2020-03-22<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>Germany<br><hr>"
+        },
+        {
+          "x": 1,
+          "y": 31,
+          "labels": "<b>Case ID:<\/b>#167<br><b>Confirm at:<\/b>2020-03-22<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>15<br><b>Travelled to:<\/b>UK<br><hr>"
+        },
+        {
+          "x": 3,
+          "y": 15,
+          "labels": "<b>Case ID:<\/b>#168<br><b>Confirm at:<\/b>2020-03-22<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#160<br><b>Infected at/in:<\/b>work<br><hr>"
+        },
+        {
+          "x": 3,
+          "y": 16,
+          "labels": "<b>Case ID:<\/b>#169<br><b>Confirm at:<\/b>2020-03-22<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>F<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#160<br><b>Infected at/in:<\/b>work<br><hr>"
         }
       ],
       "type": "scatter",
@@ -533,7 +683,7 @@ $(function(){
       "yAxis": 1,
       "zIndex": 0,
       "marker": {
-        "radius": 5,
+        "radius": 4.12,
         "symbol": "circle"
       },
       "color": "#961d1d",
@@ -545,206 +695,206 @@ $(function(){
     },
     {
       "data": [
-        [0.01, 0.2829],
-        [0.1105, 0.2279],
-        [0.2109, 0.2124],
-        [0.3114, 0.203],
-        [0.4118, 0.1939],
-        [0.5123, 0.186],
-        [0.6127, 0.1802],
-        [0.7132, 0.1745],
-        [0.8136, 0.1698],
-        [0.9141, 0.165],
-        [1.0145, 0.1606],
-        [1.115, 0.1565],
-        [1.2154, 0.1528],
-        [1.3159, 0.1494],
-        [1.4163, 0.1458],
-        [1.5168, 0.1423],
-        [1.6172, 0.139],
-        [1.7177, 0.1363],
-        [1.8181, 0.1333],
-        [1.9186, 0.1305],
-        [2.019, 0.1275],
-        [2.1195, 0.1248],
-        [2.2199, 0.122],
-        [2.3204, 0.1197],
-        [2.4209, 0.1171],
-        [2.5213, 0.1144],
-        [2.6218, 0.112],
-        [2.7222, 0.1095],
-        [2.8227, 0.1075],
-        [2.9231, 0.1052],
-        [3.0236, 0.103],
-        [3.124, 0.101],
-        [3.2245, 0.0989],
-        [3.3249, 0.0968],
-        [3.4254, 0.0948],
-        [3.5258, 0.0929],
-        [3.6263, 0.0912],
-        [3.7267, 0.0893],
-        [3.8272, 0.0876],
-        [3.9276, 0.0858],
-        [4.0281, 0.0841],
-        [4.1285, 0.0825],
-        [4.229, 0.0809],
-        [4.3294, 0.0794],
-        [4.4299, 0.0779],
-        [4.5304, 0.0764],
-        [4.6308, 0.0749],
-        [4.7313, 0.0735],
-        [4.8317, 0.0721],
-        [4.9322, 0.0708],
-        [5.0326, 0.0694],
-        [5.1331, 0.0681],
-        [5.2335, 0.0667],
-        [5.334, 0.0654],
-        [5.4344, 0.0642],
-        [5.5349, 0.0628],
-        [5.6353, 0.0616],
-        [5.7358, 0.0604],
-        [5.8362, 0.0593],
-        [5.9367, 0.0581],
-        [6.0371, 0.057],
-        [6.1376, 0.0559],
-        [6.238, 0.0548],
-        [6.3385, 0.0538],
-        [6.4389, 0.0528],
-        [6.5394, 0.0518],
-        [6.6398, 0.0508],
-        [6.7403, 0.0499],
-        [6.8408, 0.049],
-        [6.9412, 0.048],
-        [7.0417, 0.047],
-        [7.1421, 0.0461],
-        [7.2426, 0.0453],
-        [7.343, 0.0445],
-        [7.4435, 0.0436],
-        [7.5439, 0.0428],
-        [7.6444, 0.042],
-        [7.7448, 0.0413],
-        [7.8453, 0.0405],
-        [7.9457, 0.0397],
-        [8.0462, 0.0389],
-        [8.1466, 0.0382],
-        [8.2471, 0.0376],
-        [8.3475, 0.0368],
-        [8.448, 0.0362],
-        [8.5484, 0.0355],
-        [8.6489, 0.0348],
-        [8.7493, 0.0342],
-        [8.8498, 0.0336],
-        [8.9503, 0.033],
-        [9.0507, 0.0323],
-        [9.1512, 0.0317],
+        [0.01, 0.1697],
+        [0.1105, 0.1819],
+        [0.2109, 0.1839],
+        [0.3114, 0.1822],
+        [0.4118, 0.1803],
+        [0.5123, 0.1777],
+        [0.6127, 0.1749],
+        [0.7132, 0.1719],
+        [0.8136, 0.1695],
+        [0.9141, 0.1664],
+        [1.0145, 0.1635],
+        [1.115, 0.1605],
+        [1.2154, 0.158],
+        [1.3159, 0.1551],
+        [1.4163, 0.1522],
+        [1.5168, 0.1495],
+        [1.6172, 0.1467],
+        [1.7177, 0.144],
+        [1.8181, 0.1412],
+        [1.9186, 0.1388],
+        [2.019, 0.1361],
+        [2.1195, 0.1336],
+        [2.2199, 0.1309],
+        [2.3204, 0.1284],
+        [2.4209, 0.1259],
+        [2.5213, 0.1235],
+        [2.6218, 0.121],
+        [2.7222, 0.1187],
+        [2.8227, 0.1164],
+        [2.9231, 0.1141],
+        [3.0236, 0.1117],
+        [3.124, 0.1096],
+        [3.2245, 0.1074],
+        [3.3249, 0.1052],
+        [3.4254, 0.1031],
+        [3.5258, 0.101],
+        [3.6263, 0.099],
+        [3.7267, 0.0971],
+        [3.8272, 0.0951],
+        [3.9276, 0.0932],
+        [4.0281, 0.0913],
+        [4.1285, 0.0896],
+        [4.229, 0.0878],
+        [4.3294, 0.0859],
+        [4.4299, 0.0841],
+        [4.5304, 0.0824],
+        [4.6308, 0.0808],
+        [4.7313, 0.0791],
+        [4.8317, 0.0775],
+        [4.9322, 0.0759],
+        [5.0326, 0.0743],
+        [5.1331, 0.0728],
+        [5.2335, 0.0712],
+        [5.334, 0.0698],
+        [5.4344, 0.0684],
+        [5.5349, 0.067],
+        [5.6353, 0.0656],
+        [5.7358, 0.0642],
+        [5.8362, 0.063],
+        [5.9367, 0.0617],
+        [6.0371, 0.0604],
+        [6.1376, 0.0592],
+        [6.238, 0.0579],
+        [6.3385, 0.0568],
+        [6.4389, 0.0556],
+        [6.5394, 0.0545],
+        [6.6398, 0.0534],
+        [6.7403, 0.0523],
+        [6.8408, 0.0512],
+        [6.9412, 0.0502],
+        [7.0417, 0.0492],
+        [7.1421, 0.0482],
+        [7.2426, 0.0472],
+        [7.343, 0.0462],
+        [7.4435, 0.0453],
+        [7.5439, 0.0443],
+        [7.6444, 0.0434],
+        [7.7448, 0.0425],
+        [7.8453, 0.0416],
+        [7.9457, 0.0408],
+        [8.0462, 0.04],
+        [8.1466, 0.0392],
+        [8.2471, 0.0384],
+        [8.3475, 0.0376],
+        [8.448, 0.0368],
+        [8.5484, 0.0361],
+        [8.6489, 0.0353],
+        [8.7493, 0.0346],
+        [8.8498, 0.0339],
+        [8.9503, 0.0332],
+        [9.0507, 0.0325],
+        [9.1512, 0.0318],
         [9.2516, 0.0312],
-        [9.3521, 0.0306],
-        [9.4525, 0.03],
-        [9.553, 0.0294],
-        [9.6534, 0.0289],
-        [9.7539, 0.0283],
-        [9.8543, 0.0277],
-        [9.9548, 0.0273],
-        [10.0552, 0.0268],
-        [10.1557, 0.0263],
-        [10.2561, 0.0259],
-        [10.3566, 0.0254],
-        [10.457, 0.0249],
-        [10.5575, 0.0245],
-        [10.6579, 0.024],
-        [10.7584, 0.0236],
-        [10.8588, 0.0232],
-        [10.9593, 0.0228],
-        [11.0597, 0.0224],
-        [11.1602, 0.022],
-        [11.2607, 0.0215],
-        [11.3611, 0.0212],
-        [11.4616, 0.0208],
-        [11.562, 0.0204],
-        [11.6625, 0.02],
-        [11.7629, 0.0197],
-        [11.8634, 0.0193],
-        [11.9638, 0.0189],
-        [12.0643, 0.0186],
-        [12.1647, 0.0183],
-        [12.2652, 0.0179],
-        [12.3656, 0.0176],
-        [12.4661, 0.0173],
-        [12.5665, 0.017],
-        [12.667, 0.0167],
-        [12.7674, 0.0164],
-        [12.8679, 0.0161],
-        [12.9683, 0.0158],
-        [13.0688, 0.0155],
-        [13.1692, 0.0152],
-        [13.2697, 0.0149],
-        [13.3702, 0.0146],
-        [13.4706, 0.0143],
-        [13.5711, 0.0141],
-        [13.6715, 0.0138],
-        [13.772, 0.0135],
-        [13.8724, 0.0133],
-        [13.9729, 0.013],
-        [14.0733, 0.0128],
-        [14.1738, 0.0126],
-        [14.2742, 0.0123],
-        [14.3747, 0.0121],
-        [14.4751, 0.0118],
-        [14.5756, 0.0116],
-        [14.676, 0.0114],
-        [14.7765, 0.0112],
-        [14.8769, 0.011],
-        [14.9774, 0.0108],
-        [15.0778, 0.0106],
-        [15.1783, 0.0104],
-        [15.2787, 0.0102],
-        [15.3792, 0.01],
-        [15.4796, 0.0098],
-        [15.5801, 0.0097],
-        [15.6806, 0.0095],
-        [15.781, 0.0093],
-        [15.8815, 0.0091],
-        [15.9819, 0.009],
-        [16.0824, 0.0088],
-        [16.1828, 0.0086],
-        [16.2833, 0.0085],
-        [16.3837, 0.0083],
-        [16.4842, 0.0082],
-        [16.5846, 0.008],
-        [16.6851, 0.0079],
-        [16.7855, 0.0077],
-        [16.886, 0.0076],
-        [16.9864, 0.0074],
-        [17.0869, 0.0073],
-        [17.1873, 0.0072],
-        [17.2878, 0.007],
-        [17.3882, 0.0069],
-        [17.4887, 0.0068],
-        [17.5891, 0.0067],
-        [17.6896, 0.0066],
-        [17.7901, 0.0064],
-        [17.8905, 0.0063],
-        [17.991, 0.0062],
-        [18.0914, 0.0061],
-        [18.1919, 0.006],
-        [18.2923, 0.0059],
-        [18.3928, 0.0058],
-        [18.4932, 0.0057],
-        [18.5937, 0.0056],
-        [18.6941, 0.0055],
-        [18.7946, 0.0054],
-        [18.895, 0.0053],
-        [18.9955, 0.0052],
-        [19.0959, 0.0051],
-        [19.1964, 0.005],
-        [19.2968, 0.0049],
-        [19.3973, 0.0048],
-        [19.4977, 0.0047],
-        [19.5982, 0.0046],
-        [19.6986, 0.0046],
-        [19.7991, 0.0045],
-        [19.8995, 0.0044],
-        [20, 0.0043]
+        [9.3521, 0.0305],
+        [9.4525, 0.0299],
+        [9.553, 0.0293],
+        [9.6534, 0.0287],
+        [9.7539, 0.0282],
+        [9.8543, 0.0276],
+        [9.9548, 0.027],
+        [10.0552, 0.0265],
+        [10.1557, 0.0259],
+        [10.2561, 0.0254],
+        [10.3566, 0.0248],
+        [10.457, 0.0243],
+        [10.5575, 0.0238],
+        [10.6579, 0.0233],
+        [10.7584, 0.0229],
+        [10.8588, 0.0224],
+        [10.9593, 0.0219],
+        [11.0597, 0.0214],
+        [11.1602, 0.021],
+        [11.2607, 0.0206],
+        [11.3611, 0.0202],
+        [11.4616, 0.0197],
+        [11.562, 0.0193],
+        [11.6625, 0.0189],
+        [11.7629, 0.0185],
+        [11.8634, 0.0181],
+        [11.9638, 0.0178],
+        [12.0643, 0.0174],
+        [12.1647, 0.017],
+        [12.2652, 0.0167],
+        [12.3656, 0.0164],
+        [12.4661, 0.016],
+        [12.5665, 0.0157],
+        [12.667, 0.0153],
+        [12.7674, 0.015],
+        [12.8679, 0.0147],
+        [12.9683, 0.0144],
+        [13.0688, 0.0141],
+        [13.1692, 0.0138],
+        [13.2697, 0.0135],
+        [13.3702, 0.0133],
+        [13.4706, 0.013],
+        [13.5711, 0.0127],
+        [13.6715, 0.0124],
+        [13.772, 0.0122],
+        [13.8724, 0.0119],
+        [13.9729, 0.0117],
+        [14.0733, 0.0114],
+        [14.1738, 0.0112],
+        [14.2742, 0.0109],
+        [14.3747, 0.0107],
+        [14.4751, 0.0105],
+        [14.5756, 0.0103],
+        [14.676, 0.01],
+        [14.7765, 0.0098],
+        [14.8769, 0.0096],
+        [14.9774, 0.0094],
+        [15.0778, 0.0092],
+        [15.1783, 0.009],
+        [15.2787, 0.0089],
+        [15.3792, 0.0087],
+        [15.4796, 0.0085],
+        [15.5801, 0.0083],
+        [15.6806, 0.0081],
+        [15.781, 0.008],
+        [15.8815, 0.0078],
+        [15.9819, 0.0076],
+        [16.0824, 0.0075],
+        [16.1828, 0.0073],
+        [16.2833, 0.0072],
+        [16.3837, 0.007],
+        [16.4842, 0.0069],
+        [16.5846, 0.0067],
+        [16.6851, 0.0066],
+        [16.7855, 0.0065],
+        [16.886, 0.0063],
+        [16.9864, 0.0062],
+        [17.0869, 0.0061],
+        [17.1873, 0.0059],
+        [17.2878, 0.0058],
+        [17.3882, 0.0057],
+        [17.4887, 0.0056],
+        [17.5891, 0.0054],
+        [17.6896, 0.0053],
+        [17.7901, 0.0052],
+        [17.8905, 0.0051],
+        [17.991, 0.005],
+        [18.0914, 0.0049],
+        [18.1919, 0.0048],
+        [18.2923, 0.0047],
+        [18.3928, 0.0046],
+        [18.4932, 0.0045],
+        [18.5937, 0.0044],
+        [18.6941, 0.0043],
+        [18.7946, 0.0042],
+        [18.895, 0.0041],
+        [18.9955, 0.004],
+        [19.0959, 0.004],
+        [19.1964, 0.0039],
+        [19.2968, 0.0038],
+        [19.3973, 0.0037],
+        [19.4977, 0.0036],
+        [19.5982, 0.0036],
+        [19.6986, 0.0035],
+        [19.7991, 0.0034],
+        [19.8995, 0.0033],
+        [20, 0.0033]
       ],
       "id": "f0",
       "type": "line",
@@ -759,213 +909,213 @@ $(function(){
       "tooltip": {
         "useHTML": true,
         "headerFormat": "<b>Estimates and 95% CrI's :<\/b><br>",
-        "pointFormat": "\n    Mean = 5.21 (4.08,6.48)<br>\n    S.D = 5.44 (4.25,6.98)<br>\n    gamma shape = 0.93 (0.71,1.2)<br>\n    gamma scale = 5.7 (4.07,8.04)<br>"
+        "pointFormat": "\n    Mean = 4.94 (4.13,6.01)<br>\n    S.D = 4.86 (3.95,6.07)<br>\n    gamma shape = 1.04 (0.83,1.3)<br>\n    gamma scale = 4.8 (3.58,6.38)<br>"
       },
       "showInLegend": true,
       "enableMouseTracking": true
     },
     {
       "data": [
-        [0.01, 0.0755, 0.7354],
-        [0.1105, 0.1197, 0.3791],
-        [0.2109, 0.1294, 0.3114],
-        [0.3114, 0.1331, 0.2783],
-        [0.4118, 0.1347, 0.254],
-        [0.5123, 0.1354, 0.2374],
-        [0.6127, 0.1363, 0.2266],
-        [0.7132, 0.1346, 0.2155],
-        [0.8136, 0.1333, 0.2065],
-        [0.9141, 0.1333, 0.1977],
-        [1.0145, 0.1319, 0.1905],
-        [1.115, 0.1305, 0.184],
-        [1.2154, 0.1283, 0.1781],
-        [1.3159, 0.1256, 0.172],
-        [1.4163, 0.1235, 0.1674],
-        [1.5168, 0.1218, 0.1641],
-        [1.6172, 0.1193, 0.1604],
-        [1.7177, 0.1167, 0.1568],
-        [1.8181, 0.1143, 0.1531],
-        [1.9186, 0.112, 0.1498],
-        [2.019, 0.1102, 0.1464],
-        [2.1195, 0.1075, 0.1429],
-        [2.2199, 0.1054, 0.1394],
-        [2.3204, 0.103, 0.1359],
-        [2.4209, 0.1006, 0.1332],
-        [2.5213, 0.0985, 0.1306],
-        [2.6218, 0.0966, 0.1283],
-        [2.7222, 0.0944, 0.1258],
-        [2.8227, 0.0925, 0.1232],
-        [2.9231, 0.0905, 0.1209],
-        [3.0236, 0.0885, 0.1183],
-        [3.124, 0.0866, 0.1157],
-        [3.2245, 0.0849, 0.1139],
-        [3.3249, 0.0831, 0.1119],
-        [3.4254, 0.0815, 0.1097],
-        [3.5258, 0.0798, 0.1074],
-        [3.6263, 0.0782, 0.1053],
-        [3.7267, 0.0767, 0.1034],
-        [3.8272, 0.0752, 0.1016],
-        [3.9276, 0.0738, 0.0999],
-        [4.0281, 0.0724, 0.0982],
-        [4.1285, 0.071, 0.0963],
-        [4.229, 0.0697, 0.0944],
-        [4.3294, 0.0683, 0.0926],
-        [4.4299, 0.067, 0.0911],
-        [4.5304, 0.0656, 0.0896],
-        [4.6308, 0.0644, 0.088],
-        [4.7313, 0.0631, 0.0862],
-        [4.8317, 0.0618, 0.0844],
-        [4.9322, 0.0606, 0.0827],
-        [5.0326, 0.0594, 0.0809],
-        [5.1331, 0.0582, 0.0793],
-        [5.2335, 0.0571, 0.0777],
-        [5.334, 0.056, 0.0761],
-        [5.4344, 0.0548, 0.0745],
-        [5.5349, 0.0536, 0.073],
-        [5.6353, 0.0526, 0.0717],
-        [5.7358, 0.0517, 0.0704],
-        [5.8362, 0.0506, 0.069],
-        [5.9367, 0.0495, 0.0675],
-        [6.0371, 0.0484, 0.066],
-        [6.1376, 0.0474, 0.0646],
-        [6.238, 0.0463, 0.0632],
-        [6.3385, 0.0453, 0.062],
-        [6.4389, 0.0444, 0.0608],
-        [6.5394, 0.0436, 0.0597],
-        [6.6398, 0.0428, 0.0587],
-        [6.7403, 0.042, 0.0578],
-        [6.8408, 0.0413, 0.0567],
-        [6.9412, 0.0404, 0.0556],
-        [7.0417, 0.0396, 0.0545],
-        [7.1421, 0.0387, 0.0535],
-        [7.2426, 0.0378, 0.0526],
-        [7.343, 0.037, 0.0517],
-        [7.4435, 0.0361, 0.0508],
-        [7.5439, 0.0354, 0.05],
-        [7.6444, 0.0346, 0.0492],
-        [7.7448, 0.0338, 0.0483],
-        [7.8453, 0.0331, 0.0474],
-        [7.9457, 0.0324, 0.0466],
-        [8.0462, 0.0318, 0.0459],
-        [8.1466, 0.0312, 0.0451],
-        [8.2471, 0.0305, 0.0443],
-        [8.3475, 0.0299, 0.0437],
-        [8.448, 0.0292, 0.043],
-        [8.5484, 0.0285, 0.0423],
-        [8.6489, 0.0279, 0.0415],
-        [8.7493, 0.0273, 0.0407],
-        [8.8498, 0.0266, 0.04],
-        [8.9503, 0.026, 0.0393],
-        [9.0507, 0.0255, 0.0386],
-        [9.1512, 0.0249, 0.0379],
-        [9.2516, 0.0244, 0.0373],
-        [9.3521, 0.0238, 0.0367],
-        [9.4525, 0.0233, 0.036],
-        [9.553, 0.0228, 0.0353],
-        [9.6534, 0.0223, 0.0347],
-        [9.7539, 0.0218, 0.0342],
-        [9.8543, 0.0214, 0.0337],
-        [9.9548, 0.0209, 0.0331],
-        [10.0552, 0.0204, 0.0325],
-        [10.1557, 0.02, 0.032],
-        [10.2561, 0.0196, 0.0315],
-        [10.3566, 0.0191, 0.0309],
-        [10.457, 0.0187, 0.0305],
-        [10.5575, 0.0183, 0.03],
-        [10.6579, 0.0179, 0.0296],
-        [10.7584, 0.0175, 0.0291],
-        [10.8588, 0.0171, 0.0287],
-        [10.9593, 0.0167, 0.0282],
-        [11.0597, 0.0163, 0.0278],
-        [11.1602, 0.016, 0.0273],
-        [11.2607, 0.0156, 0.0268],
-        [11.3611, 0.0153, 0.0264],
-        [11.4616, 0.015, 0.0259],
-        [11.562, 0.0147, 0.0255],
-        [11.6625, 0.0143, 0.0251],
-        [11.7629, 0.0141, 0.0247],
-        [11.8634, 0.0138, 0.0242],
-        [11.9638, 0.0135, 0.0238],
-        [12.0643, 0.0132, 0.0234],
-        [12.1647, 0.013, 0.023],
-        [12.2652, 0.0127, 0.0226],
-        [12.3656, 0.0124, 0.0223],
-        [12.4661, 0.0122, 0.022],
-        [12.5665, 0.0119, 0.0217],
-        [12.667, 0.0117, 0.0213],
-        [12.7674, 0.0114, 0.021],
-        [12.8679, 0.0112, 0.0207],
-        [12.9683, 0.0109, 0.0204],
-        [13.0688, 0.0107, 0.0201],
-        [13.1692, 0.0104, 0.0198],
-        [13.2697, 0.0102, 0.0196],
-        [13.3702, 0.0099, 0.0193],
-        [13.4706, 0.0097, 0.019],
-        [13.5711, 0.0095, 0.0187],
-        [13.6715, 0.0093, 0.0185],
-        [13.772, 0.0091, 0.0182],
-        [13.8724, 0.0088, 0.0179],
-        [13.9729, 0.0086, 0.0177],
-        [14.0733, 0.0084, 0.0174],
-        [14.1738, 0.0082, 0.0171],
-        [14.2742, 0.008, 0.0169],
-        [14.3747, 0.0078, 0.0166],
-        [14.4751, 0.0076, 0.0163],
-        [14.5756, 0.0074, 0.016],
-        [14.676, 0.0072, 0.0158],
-        [14.7765, 0.0071, 0.0155],
-        [14.8769, 0.0069, 0.0153],
-        [14.9774, 0.0068, 0.015],
-        [15.0778, 0.0066, 0.0148],
-        [15.1783, 0.0065, 0.0146],
-        [15.2787, 0.0063, 0.0145],
-        [15.3792, 0.0062, 0.0143],
-        [15.4796, 0.006, 0.0141],
-        [15.5801, 0.0059, 0.0139],
-        [15.6806, 0.0057, 0.0137],
-        [15.781, 0.0056, 0.0135],
-        [15.8815, 0.0055, 0.0133],
-        [15.9819, 0.0054, 0.0131],
-        [16.0824, 0.0052, 0.0129],
-        [16.1828, 0.0051, 0.0127],
-        [16.2833, 0.005, 0.0125],
-        [16.3837, 0.0049, 0.0123],
-        [16.4842, 0.0048, 0.0121],
-        [16.5846, 0.0047, 0.0119],
-        [16.6851, 0.0045, 0.0117],
-        [16.7855, 0.0044, 0.0116],
-        [16.886, 0.0043, 0.0114],
-        [16.9864, 0.0042, 0.0112],
-        [17.0869, 0.0041, 0.0111],
-        [17.1873, 0.004, 0.0109],
-        [17.2878, 0.0039, 0.0108],
-        [17.3882, 0.0038, 0.0106],
-        [17.4887, 0.0037, 0.0105],
-        [17.5891, 0.0036, 0.0103],
-        [17.6896, 0.0036, 0.0102],
-        [17.7901, 0.0035, 0.01],
-        [17.8905, 0.0034, 0.0099],
-        [17.991, 0.0033, 0.0097],
-        [18.0914, 0.0033, 0.0096],
-        [18.1919, 0.0032, 0.0094],
-        [18.2923, 0.0031, 0.0093],
-        [18.3928, 0.0031, 0.0092],
-        [18.4932, 0.003, 0.009],
-        [18.5937, 0.0029, 0.0089],
-        [18.6941, 0.0029, 0.0088],
-        [18.7946, 0.0028, 0.0087],
-        [18.895, 0.0027, 0.0086],
-        [18.9955, 0.0027, 0.0085],
-        [19.0959, 0.0026, 0.0083],
-        [19.1964, 0.0025, 0.0082],
-        [19.2968, 0.0025, 0.0081],
-        [19.3973, 0.0024, 0.008],
-        [19.4977, 0.0023, 0.0079],
-        [19.5982, 0.0023, 0.0078],
-        [19.6986, 0.0022, 0.0076],
-        [19.7991, 0.0022, 0.0075],
-        [19.8995, 0.0021, 0.0074],
-        [20, 0.0021, 0.0073]
+        [0.01, 0.0534, 0.4415],
+        [0.1105, 0.1006, 0.2979],
+        [0.2109, 0.116, 0.2675],
+        [0.3114, 0.1246, 0.2472],
+        [0.4118, 0.1306, 0.234],
+        [0.5123, 0.1342, 0.2234],
+        [0.6127, 0.1363, 0.2138],
+        [0.7132, 0.1375, 0.2052],
+        [0.8136, 0.1378, 0.1994],
+        [0.9141, 0.1376, 0.1936],
+        [1.0145, 0.1373, 0.1892],
+        [1.115, 0.1362, 0.1837],
+        [1.2154, 0.1349, 0.1794],
+        [1.3159, 0.1334, 0.1755],
+        [1.4163, 0.1317, 0.1722],
+        [1.5168, 0.1293, 0.1688],
+        [1.6172, 0.1269, 0.1655],
+        [1.7177, 0.1246, 0.1622],
+        [1.8181, 0.1222, 0.1593],
+        [1.9186, 0.1199, 0.1562],
+        [2.019, 0.1178, 0.1531],
+        [2.1195, 0.116, 0.15],
+        [2.2199, 0.1142, 0.1473],
+        [2.3204, 0.1124, 0.1449],
+        [2.4209, 0.1099, 0.1418],
+        [2.5213, 0.1079, 0.1397],
+        [2.6218, 0.1057, 0.1373],
+        [2.7222, 0.1037, 0.1344],
+        [2.8227, 0.1016, 0.1315],
+        [2.9231, 0.0996, 0.1286],
+        [3.0236, 0.0976, 0.1263],
+        [3.124, 0.0956, 0.1238],
+        [3.2245, 0.0937, 0.1212],
+        [3.3249, 0.0919, 0.1186],
+        [3.4254, 0.0902, 0.1161],
+        [3.5258, 0.0883, 0.114],
+        [3.6263, 0.0864, 0.1118],
+        [3.7267, 0.0848, 0.1095],
+        [3.8272, 0.0831, 0.1075],
+        [3.9276, 0.0816, 0.1054],
+        [4.0281, 0.0798, 0.1034],
+        [4.1285, 0.0783, 0.1014],
+        [4.229, 0.0768, 0.0992],
+        [4.3294, 0.0754, 0.0972],
+        [4.4299, 0.0738, 0.0951],
+        [4.5304, 0.0723, 0.0931],
+        [4.6308, 0.0709, 0.0914],
+        [4.7313, 0.0694, 0.0896],
+        [4.8317, 0.0681, 0.0879],
+        [4.9322, 0.0668, 0.0861],
+        [5.0326, 0.0654, 0.0842],
+        [5.1331, 0.064, 0.0825],
+        [5.2335, 0.0627, 0.0806],
+        [5.334, 0.0615, 0.0789],
+        [5.4344, 0.0601, 0.0773],
+        [5.5349, 0.0588, 0.0756],
+        [5.6353, 0.0577, 0.074],
+        [5.7358, 0.0564, 0.0726],
+        [5.8362, 0.0552, 0.0712],
+        [5.9367, 0.0541, 0.0699],
+        [6.0371, 0.0529, 0.0685],
+        [6.1376, 0.0518, 0.0672],
+        [6.238, 0.0506, 0.0658],
+        [6.3385, 0.0496, 0.0645],
+        [6.4389, 0.0484, 0.0632],
+        [6.5394, 0.0474, 0.0618],
+        [6.6398, 0.0462, 0.0605],
+        [6.7403, 0.0453, 0.0593],
+        [6.8408, 0.0443, 0.0582],
+        [6.9412, 0.0434, 0.057],
+        [7.0417, 0.0423, 0.0559],
+        [7.1421, 0.0414, 0.0549],
+        [7.2426, 0.0404, 0.0539],
+        [7.343, 0.0395, 0.0529],
+        [7.4435, 0.0386, 0.0518],
+        [7.5439, 0.0378, 0.0508],
+        [7.6444, 0.0369, 0.0498],
+        [7.7448, 0.0361, 0.049],
+        [7.8453, 0.0353, 0.048],
+        [7.9457, 0.0346, 0.0471],
+        [8.0462, 0.0338, 0.0462],
+        [8.1466, 0.033, 0.0453],
+        [8.2471, 0.0323, 0.0444],
+        [8.3475, 0.0316, 0.0436],
+        [8.448, 0.0309, 0.0428],
+        [8.5484, 0.0301, 0.042],
+        [8.6489, 0.0295, 0.0412],
+        [8.7493, 0.0288, 0.0404],
+        [8.8498, 0.0281, 0.0397],
+        [8.9503, 0.0273, 0.0389],
+        [9.0507, 0.0267, 0.0382],
+        [9.1512, 0.0261, 0.0374],
+        [9.2516, 0.0255, 0.0367],
+        [9.3521, 0.0249, 0.036],
+        [9.4525, 0.0243, 0.0354],
+        [9.553, 0.0237, 0.0347],
+        [9.6534, 0.0231, 0.0341],
+        [9.7539, 0.0226, 0.0335],
+        [9.8543, 0.0221, 0.0329],
+        [9.9548, 0.0216, 0.0323],
+        [10.0552, 0.0211, 0.0317],
+        [10.1557, 0.0206, 0.0312],
+        [10.2561, 0.0201, 0.0306],
+        [10.3566, 0.0196, 0.0301],
+        [10.457, 0.0192, 0.0296],
+        [10.5575, 0.0188, 0.0291],
+        [10.6579, 0.0183, 0.0285],
+        [10.7584, 0.0179, 0.028],
+        [10.8588, 0.0175, 0.0274],
+        [10.9593, 0.017, 0.027],
+        [11.0597, 0.0166, 0.0265],
+        [11.1602, 0.0161, 0.026],
+        [11.2607, 0.0157, 0.0256],
+        [11.3611, 0.0154, 0.0251],
+        [11.4616, 0.015, 0.0246],
+        [11.562, 0.0147, 0.0242],
+        [11.6625, 0.0143, 0.0237],
+        [11.7629, 0.014, 0.0233],
+        [11.8634, 0.0136, 0.0229],
+        [11.9638, 0.0133, 0.0225],
+        [12.0643, 0.013, 0.0221],
+        [12.1647, 0.0126, 0.0217],
+        [12.2652, 0.0123, 0.0213],
+        [12.3656, 0.012, 0.021],
+        [12.4661, 0.0117, 0.0206],
+        [12.5665, 0.0114, 0.0203],
+        [12.667, 0.0111, 0.02],
+        [12.7674, 0.0109, 0.0196],
+        [12.8679, 0.0106, 0.0193],
+        [12.9683, 0.0103, 0.019],
+        [13.0688, 0.01, 0.0187],
+        [13.1692, 0.0098, 0.0184],
+        [13.2697, 0.0096, 0.0181],
+        [13.3702, 0.0093, 0.0178],
+        [13.4706, 0.0091, 0.0175],
+        [13.5711, 0.0089, 0.0172],
+        [13.6715, 0.0086, 0.0169],
+        [13.772, 0.0084, 0.0167],
+        [13.8724, 0.0082, 0.0164],
+        [13.9729, 0.008, 0.0162],
+        [14.0733, 0.0077, 0.0159],
+        [14.1738, 0.0075, 0.0156],
+        [14.2742, 0.0074, 0.0154],
+        [14.3747, 0.0072, 0.0152],
+        [14.4751, 0.007, 0.0149],
+        [14.5756, 0.0069, 0.0147],
+        [14.676, 0.0067, 0.0144],
+        [14.7765, 0.0065, 0.0142],
+        [14.8769, 0.0064, 0.014],
+        [14.9774, 0.0062, 0.0137],
+        [15.0778, 0.006, 0.0135],
+        [15.1783, 0.0059, 0.0133],
+        [15.2787, 0.0057, 0.0131],
+        [15.3792, 0.0056, 0.0129],
+        [15.4796, 0.0054, 0.0126],
+        [15.5801, 0.0053, 0.0124],
+        [15.6806, 0.0052, 0.0122],
+        [15.781, 0.005, 0.012],
+        [15.8815, 0.0049, 0.0118],
+        [15.9819, 0.0048, 0.0116],
+        [16.0824, 0.0046, 0.0114],
+        [16.1828, 0.0045, 0.0112],
+        [16.2833, 0.0044, 0.0111],
+        [16.3837, 0.0043, 0.0109],
+        [16.4842, 0.0041, 0.0107],
+        [16.5846, 0.004, 0.0105],
+        [16.6851, 0.0039, 0.0103],
+        [16.7855, 0.0038, 0.0102],
+        [16.886, 0.0037, 0.01],
+        [16.9864, 0.0036, 0.0098],
+        [17.0869, 0.0035, 0.0096],
+        [17.1873, 0.0035, 0.0095],
+        [17.2878, 0.0034, 0.0093],
+        [17.3882, 0.0033, 0.0091],
+        [17.4887, 0.0032, 0.009],
+        [17.5891, 0.0031, 0.0088],
+        [17.6896, 0.003, 0.0087],
+        [17.7901, 0.0029, 0.0086],
+        [17.8905, 0.0029, 0.0084],
+        [17.991, 0.0028, 0.0083],
+        [18.0914, 0.0027, 0.0081],
+        [18.1919, 0.0026, 0.008],
+        [18.2923, 0.0026, 0.0079],
+        [18.3928, 0.0025, 0.0078],
+        [18.4932, 0.0024, 0.0076],
+        [18.5937, 0.0024, 0.0075],
+        [18.6941, 0.0023, 0.0074],
+        [18.7946, 0.0023, 0.0073],
+        [18.895, 0.0022, 0.0071],
+        [18.9955, 0.0022, 0.007],
+        [19.0959, 0.0021, 0.0069],
+        [19.1964, 0.002, 0.0068],
+        [19.2968, 0.002, 0.0067],
+        [19.3973, 0.0019, 0.0066],
+        [19.4977, 0.0019, 0.0065],
+        [19.5982, 0.0018, 0.0064],
+        [19.6986, 0.0018, 0.0063],
+        [19.7991, 0.0017, 0.0062],
+        [19.8995, 0.0017, 0.0061],
+        [20, 0.0016, 0.006]
       ],
       "keys": ["x", "low", "high"],
       "type": "arearange",
@@ -985,424 +1135,349 @@ $(function(){
     {
       "data": [
         {
-          "x": 10,
-          "y": 5,
-          "labels": "Case#136<br>Tested on 2020-03-18"
-        },
-        {
-          "x": 5,
-          "y": 6,
-          "labels": "Case#137<br>Tested on 2020-03-19"
-        },
-        {
-          "x": 1,
-          "y": 29,
-          "labels": "Case#138<br>Tested on 2020-03-19"
-        },
-        {
-          "x": 3,
-          "y": 10,
-          "labels": "Case#139<br>Tested on 2020-03-20"
-        },
-        {
-          "x": 3,
-          "y": 11,
-          "labels": "Case#141<br>Tested on 2020-03-20"
-        },
-        {
-          "x": 6,
-          "y": 9,
-          "labels": "Case#142<br>Tested on 2020-03-19"
-        },
-        {
-          "x": 5,
-          "y": 7,
-          "labels": "Case#143<br>Tested on 2020-03-19"
-        },
-        {
-          "x": 13,
-          "y": 2,
-          "labels": "Case#144<br>Tested on 2020-03-19"
-        },
-        {
-          "x": 3,
-          "y": 12,
-          "labels": "Case#145<br>Tested on 2020-03-19"
-        },
-        {
-          "x": 1,
-          "y": 30,
-          "labels": "Case#146<br>Tested on 2020-03-19"
-        },
-        {
-          "x": 2,
-          "y": 12,
-          "labels": "Case#147<br>Tested on 2020-03-19"
-        },
-        {
-          "x": 3,
-          "y": 13,
-          "labels": "Case#148<br>Tested on 2020-03-19"
-        },
-        {
-          "x": 4,
-          "y": 7,
-          "labels": "Case#149<br>Tested on 2020-03-19"
-        },
-        {
-          "x": 1,
-          "y": 31,
-          "labels": "Case#150<br>Tested on 2020-03-20"
-        },
-        {
           "x": 1,
           "y": 32,
-          "labels": "Case#151<br>Tested on 2020-03-19"
-        },
-        {
-          "x": 4,
-          "y": 8,
-          "labels": "Case#152<br>Tested on 2020-03-19"
-        },
-        {
-          "x": 1,
-          "y": 33,
-          "labels": "Case#153<br>Tested on 2020-03-19"
-        },
-        {
-          "x": 1,
-          "y": 34,
-          "labels": "Case#154<br>Tested on 2020-03-17"
-        },
-        {
-          "x": 9,
-          "y": 4,
-          "labels": "Case#156<br>Tested on 2020-03-21"
-        },
-        {
-          "x": 2,
-          "y": 13,
-          "labels": "Case#157<br>Tested on 2020-03-20"
-        },
-        {
-          "x": 2,
-          "y": 14,
-          "labels": "Case#158<br>Tested on 2020-03-20"
-        },
-        {
-          "x": 1,
-          "y": 35,
-          "labels": "Case#159<br>Tested on 2020-03-19"
-        },
-        {
-          "x": 6,
-          "y": 10,
-          "labels": "Case#160<br>Tested on 2020-03-20"
-        },
-        {
-          "x": 3,
-          "y": 14,
-          "labels": "Case#163<br>Tested on 2020-03-20"
-        },
-        {
-          "x": 8,
-          "y": 4,
-          "labels": "Case#164<br>Tested on 2020-03-21"
-        },
-        {
-          "x": 12,
-          "y": 2,
-          "labels": "Case#165<br>Tested on 2020-03-19"
-        },
-        {
-          "x": 3,
-          "y": 15,
-          "labels": "Case#166<br>Tested on 2020-03-20"
-        },
-        {
-          "x": 1,
-          "y": 36,
-          "labels": "Case#167<br>Tested on 2020-03-20"
-        },
-        {
-          "x": 3,
-          "y": 16,
-          "labels": "Case#168<br>Tested on 2020-03-20"
-        },
-        {
-          "x": 3,
-          "y": 17,
-          "labels": "Case#169<br>Tested on 2020-03-20"
-        },
-        {
-          "x": 1,
-          "y": 37,
-          "labels": "Case#170<br>Tested on 2020-03-21"
+          "labels": "<b>Case ID:<\/b>#170<br><b>Confirm at:<\/b>2020-03-23<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>65<br><b>Travelled to:<\/b>Spain<br><hr>"
         },
         {
           "x": 13,
           "y": 3,
-          "labels": "Case#171<br>Tested on 2020-03-20"
+          "labels": "<b>Case ID:<\/b>#171<br><b>Confirm at:<\/b>2020-03-23<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>Netherlands<br><hr>"
         },
         {
           "x": 4,
-          "y": 9,
-          "labels": "Case#172<br>Tested on 2020-03-20"
+          "y": 8,
+          "labels": "<b>Case ID:<\/b>#172<br><b>Confirm at:<\/b>2020-03-23<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>France<br><hr>"
         },
         {
           "x": 2,
           "y": 15,
-          "labels": "Case#173<br>Tested on 2020-03-20"
+          "labels": "<b>Case ID:<\/b>#173<br><b>Confirm at:<\/b>2020-03-23<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>France<br><hr>"
         },
         {
           "x": 13,
           "y": 4,
-          "labels": "Case#174<br>Tested on 2020-03-20"
+          "labels": "<b>Case ID:<\/b>#174<br><b>Confirm at:<\/b>2020-03-23<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>Netherlands<br><hr>"
         },
         {
           "x": 10,
           "y": 6,
-          "labels": "Case#175<br>Tested on 2020-03-20"
+          "labels": "<b>Case ID:<\/b>#175<br><b>Confirm at:<\/b>2020-03-23<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>5<br><b>Travelled to:<\/b>Netherlands<br><hr>"
         },
         {
           "x": 2,
           "y": 16,
-          "labels": "Case#177<br>Tested on 2020-03-21"
+          "labels": "<b>Case ID:<\/b>#177<br><b>Confirm at:<\/b>2020-03-23<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>45<br><b>Travelled to:<\/b>US<br><hr>"
         },
         {
           "x": 10,
           "y": 7,
-          "labels": "Case#178<br>Tested on 2020-03-20"
+          "labels": "<b>Case ID:<\/b>#178<br><b>Confirm at:<\/b>2020-03-23<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>Netherlands<br><hr>"
         },
         {
           "x": 5,
           "y": 8,
-          "labels": "Case#180<br>Tested on 2020-03-20"
+          "labels": "<b>Case ID:<\/b>#180<br><b>Confirm at:<\/b>2020-03-23<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>Czech Republic<br><hr>"
         },
         {
           "x": 19,
           "y": 2,
-          "labels": "Case#181<br>Tested on 2020-03-20"
+          "labels": "<b>Case ID:<\/b>#181<br><b>Confirm at:<\/b>2020-03-23<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>US,Japan<br><hr>"
         },
         {
           "x": 1,
-          "y": 38,
-          "labels": "Case#182<br>Tested on 2020-03-21"
+          "y": 33,
+          "labels": "<b>Case ID:<\/b>#182<br><b>Confirm at:<\/b>2020-03-23<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>45<br><b>Travelled to:<\/b>US<br><hr>"
         },
         {
           "x": 2,
           "y": 17,
-          "labels": "Case#183<br>Tested on 2020-03-20"
+          "labels": "<b>Case ID:<\/b>#183<br><b>Confirm at:<\/b>2020-03-23<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>75<br><b>Travelled to:<\/b>France,Brazil,Chile,Peru<br><hr>"
         },
         {
           "x": 1,
-          "y": 39,
-          "labels": "Case#184<br>Tested on 2020-03-20"
+          "y": 34,
+          "labels": "<b>Case ID:<\/b>#184<br><b>Confirm at:<\/b>2020-03-23<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>US<br><hr>"
         },
         {
           "x": 7,
           "y": 4,
-          "labels": "Case#185<br>Tested on 2020-03-21"
+          "labels": "<b>Case ID:<\/b>#185<br><b>Confirm at:<\/b>2020-03-23<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>US<br><hr>"
         },
         {
           "x": 3,
-          "y": 18,
-          "labels": "Case#186<br>Tested on 2020-03-20"
+          "y": 17,
+          "labels": "<b>Case ID:<\/b>#186<br><b>Confirm at:<\/b>2020-03-23<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>F<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b><br><hr>"
         },
         {
           "x": 7,
           "y": 5,
-          "labels": "Case#188<br>Tested on 2020-03-21"
+          "labels": "<b>Case ID:<\/b>#188<br><b>Confirm at:<\/b>2020-03-23<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>UK<br><hr>"
         },
         {
           "x": 2,
           "y": 18,
-          "labels": "Case#190<br>Tested on 2020-03-21"
+          "labels": "<b>Case ID:<\/b>#190<br><b>Confirm at:<\/b>2020-03-23<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>US<br><hr>"
         },
         {
           "x": 10,
           "y": 8,
-          "labels": "Case#191<br>Tested on 2020-03-21"
+          "labels": "<b>Case ID:<\/b>#191<br><b>Confirm at:<\/b>2020-03-23<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>US<br><hr>"
         },
         {
           "x": 28,
           "y": 1,
-          "labels": "Case#192<br>Tested on 2020-03-21"
+          "labels": "<b>Case ID:<\/b>#192<br><b>Confirm at:<\/b>2020-03-23<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>US<br><hr>"
         },
         {
           "x": 5,
           "y": 9,
-          "labels": "Case#193<br>Tested on 2020-03-21"
+          "labels": "<b>Case ID:<\/b>#193<br><b>Confirm at:<\/b>2020-03-23<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>UK<br><hr>"
         },
         {
           "x": 5,
           "y": 10,
-          "labels": "Case#194<br>Tested on 2020-03-21"
+          "labels": "<b>Case ID:<\/b>#194<br><b>Confirm at:<\/b>2020-03-23<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>US<br><hr>"
+        },
+        {
+          "x": 1,
+          "y": 35,
+          "labels": "<b>Case ID:<\/b>#195<br><b>Confirm at:<\/b>2020-03-23<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>US<br><hr>"
+        },
+        {
+          "x": 1,
+          "y": 36,
+          "labels": "<b>Case ID:<\/b>#196<br><b>Confirm at:<\/b>2020-03-24<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>55<br><b>Travelled to:<\/b>Thailand, Germany, Bulgaria,US<br><hr>"
+        },
+        {
+          "x": 2,
+          "y": 19,
+          "labels": "<b>Case ID:<\/b>#197<br><b>Confirm at:<\/b>2020-03-24<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>45<br><b>Travelled to:<\/b>US<br><hr>"
+        },
+        {
+          "x": 1,
+          "y": 37,
+          "labels": "<b>Case ID:<\/b>#198<br><b>Confirm at:<\/b>2020-03-24<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>Ireland<br><hr>"
+        },
+        {
+          "x": 1,
+          "y": 38,
+          "labels": "<b>Case ID:<\/b>#199<br><b>Confirm at:<\/b>2020-03-24<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>Italy, Germany, Belgium, UK<br><hr>"
+        },
+        {
+          "x": 1,
+          "y": 39,
+          "labels": "<b>Case ID:<\/b>#200<br><b>Confirm at:<\/b>2020-03-24<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>UK<br><hr>"
+        },
+        {
+          "x": 3,
+          "y": 18,
+          "labels": "<b>Case ID:<\/b>#201<br><b>Confirm at:<\/b>2020-03-24<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>Ireland<br><hr>"
+        },
+        {
+          "x": 2,
+          "y": 20,
+          "labels": "<b>Case ID:<\/b>#202<br><b>Confirm at:<\/b>2020-03-24<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>45<br><b>Travelled to:<\/b>US<br><hr>"
+        },
+        {
+          "x": 6,
+          "y": 7,
+          "labels": "<b>Case ID:<\/b>#203<br><b>Confirm at:<\/b>2020-03-24<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>France<br><hr>"
+        },
+        {
+          "x": 6,
+          "y": 8,
+          "labels": "<b>Case ID:<\/b>#204<br><b>Confirm at:<\/b>2020-03-24<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>UK<br><hr>"
         },
         {
           "x": 1,
           "y": 40,
-          "labels": "Case#195<br>Tested on 2020-03-21"
-        },
-        {
-          "x": 1,
-          "y": 41,
-          "labels": "Case#196<br>Tested on 2020-03-21"
-        },
-        {
-          "x": 2,
-          "y": 19,
-          "labels": "Case#197<br>Tested on 2020-03-21"
-        },
-        {
-          "x": 1,
-          "y": 42,
-          "labels": "Case#198<br>Tested on 2020-03-22"
-        },
-        {
-          "x": 1,
-          "y": 43,
-          "labels": "Case#199<br>Tested on 2020-03-21"
-        },
-        {
-          "x": 1,
-          "y": 44,
-          "labels": "Case#200<br>Tested on 2020-03-20"
-        },
-        {
-          "x": 3,
-          "y": 19,
-          "labels": "Case#201<br>Tested on 2020-03-22"
-        },
-        {
-          "x": 2,
-          "y": 20,
-          "labels": "Case#202<br>Tested on 2020-03-21"
+          "labels": "<b>Case ID:<\/b>#205<br><b>Confirm at:<\/b>2020-03-24<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>2.5<br><b>Travelled to:<\/b>Turkey<br><hr>"
         },
         {
           "x": 6,
-          "y": 11,
-          "labels": "Case#203<br>Tested on 2020-03-22"
-        },
-        {
-          "x": 6,
-          "y": 12,
-          "labels": "Case#204<br>Tested on 2020-03-22"
-        },
-        {
-          "x": 1,
-          "y": 45,
-          "labels": "Case#205<br>Tested on 2020-03-22"
-        },
-        {
-          "x": 6,
-          "y": 13,
-          "labels": "Case#206<br>Tested on 2020-03-22"
+          "y": 9,
+          "labels": "<b>Case ID:<\/b>#206<br><b>Confirm at:<\/b>2020-03-24<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>UK<br><hr>"
         },
         {
           "x": 4,
-          "y": 10,
-          "labels": "Case#207<br>Tested on 2020-03-20"
+          "y": 9,
+          "labels": "<b>Case ID:<\/b>#207<br><b>Confirm at:<\/b>2020-03-24<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>US<br><hr>"
         },
         {
           "x": 11,
           "y": 2,
-          "labels": "Case#208<br>Tested on 2020-03-20"
+          "labels": "<b>Case ID:<\/b>#208<br><b>Confirm at:<\/b>2020-03-24<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>UK<br><hr>"
         },
         {
           "x": 4,
-          "y": 11,
-          "labels": "Case#212<br>Tested on 2020-03-23"
+          "y": 10,
+          "labels": "<b>Case ID:<\/b>#212<br><b>Confirm at:<\/b>2020-03-24<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>US<br><hr>"
         },
         {
           "x": 2,
           "y": 21,
-          "labels": "Case#213<br>Tested on 2020-03-17"
+          "labels": "<b>Case ID:<\/b>#213<br><b>Confirm at:<\/b>2020-03-24<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>Spain<br><hr>"
         },
         {
           "x": 10,
           "y": 9,
-          "labels": "Case#214<br>Tested on 2020-03-21"
+          "labels": "<b>Case ID:<\/b>#214<br><b>Confirm at:<\/b>2020-03-24<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>UK<br><hr>"
         },
         {
           "x": 2,
           "y": 22,
-          "labels": "Case#217<br>Tested on 2020-03-22"
+          "labels": "<b>Case ID:<\/b>#217<br><b>Confirm at:<\/b>2020-03-25<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>15<br><b>Travelled to:<\/b>UK<br><hr>"
         },
         {
           "x": 4,
-          "y": 12,
-          "labels": "Case#218<br>Tested on 2020-03-21"
+          "y": 11,
+          "labels": "<b>Case ID:<\/b>#218<br><b>Confirm at:<\/b>2020-03-25<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>US<br><hr>"
         },
         {
           "x": 1,
-          "y": 46,
-          "labels": "Case#219<br>Tested on 2020-03-23"
+          "y": 41,
+          "labels": "<b>Case ID:<\/b>#219<br><b>Confirm at:<\/b>2020-03-25<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>US<br><hr>"
         },
         {
           "x": 3,
-          "y": 20,
-          "labels": "Case#220<br>Tested on 2020-03-22"
+          "y": 19,
+          "labels": "<b>Case ID:<\/b>#220<br><b>Confirm at:<\/b>2020-03-25<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>UK<br><hr>"
         },
         {
           "x": 5,
           "y": 11,
-          "labels": "Case#221<br>Tested on 2020-03-23"
+          "labels": "<b>Case ID:<\/b>#221<br><b>Confirm at:<\/b>2020-03-25<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>UK<br><hr>"
         },
         {
           "x": 6,
-          "y": 14,
-          "labels": "Case#222<br>Tested on 2020-03-22"
+          "y": 10,
+          "labels": "<b>Case ID:<\/b>#222<br><b>Confirm at:<\/b>2020-03-25<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>UK<br><hr>"
         },
         {
           "x": 6,
-          "y": 15,
-          "labels": "Case#223<br>Tested on 2020-03-23"
+          "y": 11,
+          "labels": "<b>Case ID:<\/b>#223<br><b>Confirm at:<\/b>2020-03-25<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>UK<br><hr>"
         },
         {
           "x": 4,
-          "y": 13,
-          "labels": "Case#224<br>Tested on 2020-03-22"
+          "y": 12,
+          "labels": "<b>Case ID:<\/b>#224<br><b>Confirm at:<\/b>2020-03-25<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>UK<br><hr>"
+        },
+        {
+          "x": 8,
+          "y": 4,
+          "labels": "<b>Case ID:<\/b>#225<br><b>Confirm at:<\/b>2020-03-25<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>UK<br><hr>"
+        },
+        {
+          "x": 1,
+          "y": 42,
+          "labels": "<b>Case ID:<\/b>#226<br><b>Confirm at:<\/b>2020-03-25<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>65<br><b>Travelled to:<\/b>Egypt<br><hr>"
         },
         {
           "x": 8,
           "y": 5,
-          "labels": "Case#225<br>Tested on 2020-03-23"
+          "labels": "<b>Case ID:<\/b>#227<br><b>Confirm at:<\/b>2020-03-25<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>UK<br><hr>"
         },
         {
           "x": 1,
-          "y": 47,
-          "labels": "Case#226<br>Tested on 2020-03-22"
-        },
-        {
-          "x": 8,
-          "y": 6,
-          "labels": "Case#227<br>Tested on 2020-03-23"
-        },
-        {
-          "x": 1,
-          "y": 48,
-          "labels": "Case#228<br>Tested on 2020-03-22"
+          "y": 43,
+          "labels": "<b>Case ID:<\/b>#228<br><b>Confirm at:<\/b>2020-03-25<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>Netherlands<br><hr>"
         },
         {
           "x": 2,
           "y": 23,
-          "labels": "Case#229<br>Tested on 2020-03-22"
+          "labels": "<b>Case ID:<\/b>#229<br><b>Confirm at:<\/b>2020-03-25<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>US<br><hr>"
         },
         {
           "x": 2,
           "y": 24,
-          "labels": "Case#230<br>Tested on 2020-03-24"
+          "labels": "<b>Case ID:<\/b>#230<br><b>Confirm at:<\/b>2020-03-25<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>15<br><b>Travelled to:<\/b>US<br><hr>"
         },
         {
           "x": 2,
           "y": 25,
-          "labels": "Case#232<br>Tested on 2020-03-24"
+          "labels": "<b>Case ID:<\/b>#232<br><b>Confirm at:<\/b>2020-03-25<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>US, Indonesia<br><hr>"
         },
         {
           "x": 6,
-          "y": 16,
-          "labels": "Case#234<br>Tested on 2020-03-24"
+          "y": 12,
+          "labels": "<b>Case ID:<\/b>#234<br><b>Confirm at:<\/b>2020-03-25<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>France<br><hr>"
+        },
+        {
+          "x": 1,
+          "y": 44,
+          "labels": "<b>Case ID:<\/b>#236<br><b>Confirm at:<\/b>2020-03-26<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>Czech Republic<br><hr>"
+        },
+        {
+          "x": 2,
+          "y": 26,
+          "labels": "<b>Case ID:<\/b>#237<br><b>Confirm at:<\/b>2020-03-26<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>55<br><b>Travelled to:<\/b>US, San Diego, Chile,<c2><a0> Antarctica,<c2><a0> Argentina,<c2><a0> Kada, Thailand<br><hr>"
+        },
+        {
+          "x": 12,
+          "y": 3,
+          "labels": "<b>Case ID:<\/b>#238<br><b>Confirm at:<\/b>2020-03-26<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>UK<br><hr>"
+        },
+        {
+          "x": 12,
+          "y": 4,
+          "labels": "<b>Case ID:<\/b>#239<br><b>Confirm at:<\/b>2020-03-26<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>UK<br><hr>"
+        },
+        {
+          "x": 10,
+          "y": 10,
+          "labels": "<b>Case ID:<\/b>#240<br><b>Confirm at:<\/b>2020-03-26<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>US<br><hr>"
+        },
+        {
+          "x": 1,
+          "y": 45,
+          "labels": "<b>Case ID:<\/b>#241<br><b>Confirm at:<\/b>2020-03-26<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>45<br><b>Travelled to:<\/b>UK<br><hr>"
+        },
+        {
+          "x": 6,
+          "y": 13,
+          "labels": "<b>Case ID:<\/b>#242<br><b>Confirm at:<\/b>2020-03-26<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>UK<br><hr>"
+        },
+        {
+          "x": 8,
+          "y": 6,
+          "labels": "<b>Case ID:<\/b>#243<br><b>Confirm at:<\/b>2020-03-26<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>US<br><hr>"
+        },
+        {
+          "x": 5,
+          "y": 12,
+          "labels": "<b>Case ID:<\/b>#244<br><b>Confirm at:<\/b>2020-03-26<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>New Zealand<br><hr>"
+        },
+        {
+          "x": 6,
+          "y": 14,
+          "labels": "<b>Case ID:<\/b>#245<br><b>Confirm at:<\/b>2020-03-26<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>UK<br><hr>"
+        },
+        {
+          "x": 1,
+          "y": 46,
+          "labels": "<b>Case ID:<\/b>#247<br><b>Confirm at:<\/b>2020-03-26<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>F<br><b>Age group:<\/b>45<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#228<br><b>Infected at/in:<\/b>NA<br><hr>"
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "labels": "<b>Case ID:<\/b>#249<br><b>Confirm at:<\/b>2020-03-26<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>65<br><b>Travelled to:<\/b>Malaysia, Philippine<br><hr>"
+        },
+        {
+          "x": 2,
+          "y": 27,
+          "labels": "<b>Case ID:<\/b>#250<br><b>Confirm at:<\/b>2020-03-26<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>F<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b>Monaco<br><hr>"
+        },
+        {
+          "x": 1,
+          "y": 47,
+          "labels": "<b>Case ID:<\/b>#251<br><b>Confirm at:<\/b>2020-03-26<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>65<br><b>Travelled to:<\/b>Australia, Mexico<br><hr>"
+        },
+        {
+          "x": 3,
+          "y": 20,
+          "labels": "<b>Case ID:<\/b>#252<br><b>Confirm at:<\/b>2020-03-26<br><b>Type:<\/b>Imported<br><b>Sex:<\/b>M<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b>UK<br><hr>"
         }
       ],
       "type": "scatter",
@@ -1411,7 +1486,7 @@ $(function(){
       "yAxis": 1,
       "zIndex": 0,
       "marker": {
-        "radius": 5,
+        "radius": 4.12,
         "symbol": "circle"
       },
       "color": "#FFA500",
@@ -1423,153 +1498,153 @@ $(function(){
     },
     {
       "data": [
-        [0.01, 0.1139],
-        [0.1105, 0.1485],
-        [0.2109, 0.1568],
-        [0.3114, 0.1613],
-        [0.4118, 0.163],
-        [0.5123, 0.1638],
-        [0.6127, 0.1634],
-        [0.7132, 0.1626],
-        [0.8136, 0.1619],
-        [0.9141, 0.161],
-        [1.0145, 0.1592],
-        [1.115, 0.1572],
-        [1.2154, 0.1552],
-        [1.3159, 0.1531],
+        [0.01, 0.1002],
+        [0.1105, 0.14],
+        [0.2109, 0.1512],
+        [0.3114, 0.1565],
+        [0.4118, 0.1592],
+        [0.5123, 0.1608],
+        [0.6127, 0.1615],
+        [0.7132, 0.1614],
+        [0.8136, 0.1605],
+        [0.9141, 0.1592],
+        [1.0145, 0.158],
+        [1.115, 0.1565],
+        [1.2154, 0.1547],
+        [1.3159, 0.153],
         [1.4163, 0.1511],
-        [1.5168, 0.1491],
-        [1.6172, 0.1472],
-        [1.7177, 0.145],
+        [1.5168, 0.149],
+        [1.6172, 0.1468],
+        [1.7177, 0.1447],
         [1.8181, 0.1425],
-        [1.9186, 0.1401],
-        [2.019, 0.1378],
-        [2.1195, 0.1356],
-        [2.2199, 0.1332],
-        [2.3204, 0.1309],
-        [2.4209, 0.1286],
-        [2.5213, 0.1262],
-        [2.6218, 0.1241],
-        [2.7222, 0.1219],
-        [2.8227, 0.1198],
-        [2.9231, 0.1177],
-        [3.0236, 0.1155],
-        [3.124, 0.1133],
-        [3.2245, 0.1111],
-        [3.3249, 0.109],
-        [3.4254, 0.1069],
-        [3.5258, 0.1049],
-        [3.6263, 0.1028],
-        [3.7267, 0.1008],
-        [3.8272, 0.0989],
-        [3.9276, 0.0969],
-        [4.0281, 0.0951],
-        [4.1285, 0.0932],
-        [4.229, 0.0914],
-        [4.3294, 0.0896],
-        [4.4299, 0.0878],
-        [4.5304, 0.086],
-        [4.6308, 0.0844],
-        [4.7313, 0.0827],
-        [4.8317, 0.081],
-        [4.9322, 0.0794],
-        [5.0326, 0.0778],
-        [5.1331, 0.0763],
-        [5.2335, 0.0748],
-        [5.334, 0.0732],
-        [5.4344, 0.0717],
-        [5.5349, 0.0703],
-        [5.6353, 0.0689],
-        [5.7358, 0.0675],
-        [5.8362, 0.0661],
-        [5.9367, 0.0648],
-        [6.0371, 0.0635],
-        [6.1376, 0.0622],
-        [6.238, 0.0609],
-        [6.3385, 0.0597],
-        [6.4389, 0.0585],
-        [6.5394, 0.0572],
-        [6.6398, 0.0561],
-        [6.7403, 0.0549],
-        [6.8408, 0.0538],
-        [6.9412, 0.0527],
-        [7.0417, 0.0516],
-        [7.1421, 0.0505],
-        [7.2426, 0.0494],
-        [7.343, 0.0484],
-        [7.4435, 0.0474],
-        [7.5439, 0.0464],
-        [7.6444, 0.0454],
-        [7.7448, 0.0444],
-        [7.8453, 0.0435],
-        [7.9457, 0.0426],
-        [8.0462, 0.0417],
-        [8.1466, 0.0408],
-        [8.2471, 0.0399],
-        [8.3475, 0.0391],
-        [8.448, 0.0382],
-        [8.5484, 0.0374],
-        [8.6489, 0.0366],
-        [8.7493, 0.0359],
-        [8.8498, 0.0352],
-        [8.9503, 0.0344],
-        [9.0507, 0.0337],
-        [9.1512, 0.0329],
-        [9.2516, 0.0322],
-        [9.3521, 0.0316],
-        [9.4525, 0.0309],
-        [9.553, 0.0303],
-        [9.6534, 0.0297],
-        [9.7539, 0.029],
-        [9.8543, 0.0284],
-        [9.9548, 0.0278],
-        [10.0552, 0.0272],
-        [10.1557, 0.0266],
-        [10.2561, 0.026],
-        [10.3566, 0.0255],
-        [10.457, 0.0249],
-        [10.5575, 0.0244],
-        [10.6579, 0.0239],
+        [1.9186, 0.1403],
+        [2.019, 0.1381],
+        [2.1195, 0.136],
+        [2.2199, 0.1338],
+        [2.3204, 0.1316],
+        [2.4209, 0.1293],
+        [2.5213, 0.1271],
+        [2.6218, 0.1249],
+        [2.7222, 0.1227],
+        [2.8227, 0.1205],
+        [2.9231, 0.1184],
+        [3.0236, 0.1163],
+        [3.124, 0.1143],
+        [3.2245, 0.1122],
+        [3.3249, 0.11],
+        [3.4254, 0.108],
+        [3.5258, 0.1059],
+        [3.6263, 0.104],
+        [3.7267, 0.102],
+        [3.8272, 0.1],
+        [3.9276, 0.0981],
+        [4.0281, 0.0962],
+        [4.1285, 0.0943],
+        [4.229, 0.0924],
+        [4.3294, 0.0906],
+        [4.4299, 0.0888],
+        [4.5304, 0.0871],
+        [4.6308, 0.0854],
+        [4.7313, 0.0836],
+        [4.8317, 0.082],
+        [4.9322, 0.0804],
+        [5.0326, 0.0787],
+        [5.1331, 0.0772],
+        [5.2335, 0.0756],
+        [5.334, 0.0741],
+        [5.4344, 0.0726],
+        [5.5349, 0.0711],
+        [5.6353, 0.0697],
+        [5.7358, 0.0683],
+        [5.8362, 0.0669],
+        [5.9367, 0.0656],
+        [6.0371, 0.0642],
+        [6.1376, 0.0629],
+        [6.238, 0.0616],
+        [6.3385, 0.0603],
+        [6.4389, 0.059],
+        [6.5394, 0.0577],
+        [6.6398, 0.0565],
+        [6.7403, 0.0554],
+        [6.8408, 0.0542],
+        [6.9412, 0.0531],
+        [7.0417, 0.0519],
+        [7.1421, 0.0508],
+        [7.2426, 0.0498],
+        [7.343, 0.0487],
+        [7.4435, 0.0477],
+        [7.5439, 0.0467],
+        [7.6444, 0.0457],
+        [7.7448, 0.0447],
+        [7.8453, 0.0438],
+        [7.9457, 0.0429],
+        [8.0462, 0.042],
+        [8.1466, 0.0411],
+        [8.2471, 0.0403],
+        [8.3475, 0.0394],
+        [8.448, 0.0386],
+        [8.5484, 0.0378],
+        [8.6489, 0.037],
+        [8.7493, 0.0362],
+        [8.8498, 0.0354],
+        [8.9503, 0.0347],
+        [9.0507, 0.0339],
+        [9.1512, 0.0332],
+        [9.2516, 0.0325],
+        [9.3521, 0.0318],
+        [9.4525, 0.0311],
+        [9.553, 0.0305],
+        [9.6534, 0.0298],
+        [9.7539, 0.0292],
+        [9.8543, 0.0286],
+        [9.9548, 0.0279],
+        [10.0552, 0.0273],
+        [10.1557, 0.0268],
+        [10.2561, 0.0262],
+        [10.3566, 0.0256],
+        [10.457, 0.025],
+        [10.5575, 0.0245],
+        [10.6579, 0.024],
         [10.7584, 0.0234],
         [10.8588, 0.0229],
-        [10.9593, 0.0224],
-        [11.0597, 0.0219],
+        [10.9593, 0.0225],
+        [11.0597, 0.022],
         [11.1602, 0.0215],
         [11.2607, 0.021],
         [11.3611, 0.0206],
         [11.4616, 0.0201],
         [11.562, 0.0197],
         [11.6625, 0.0193],
-        [11.7629, 0.0188],
-        [11.8634, 0.0184],
-        [11.9638, 0.018],
-        [12.0643, 0.0176],
-        [12.1647, 0.0172],
-        [12.2652, 0.0168],
-        [12.3656, 0.0165],
-        [12.4661, 0.0161],
-        [12.5665, 0.0157],
-        [12.667, 0.0154],
-        [12.7674, 0.0151],
-        [12.8679, 0.0147],
-        [12.9683, 0.0144],
-        [13.0688, 0.0141],
-        [13.1692, 0.0138],
-        [13.2697, 0.0135],
-        [13.3702, 0.0132],
-        [13.4706, 0.0129],
-        [13.5711, 0.0126],
+        [11.7629, 0.0189],
+        [11.8634, 0.0185],
+        [11.9638, 0.0181],
+        [12.0643, 0.0177],
+        [12.1647, 0.0173],
+        [12.2652, 0.0169],
+        [12.3656, 0.0166],
+        [12.4661, 0.0162],
+        [12.5665, 0.0158],
+        [12.667, 0.0155],
+        [12.7674, 0.0152],
+        [12.8679, 0.0148],
+        [12.9683, 0.0145],
+        [13.0688, 0.0142],
+        [13.1692, 0.0139],
+        [13.2697, 0.0136],
+        [13.3702, 0.0133],
+        [13.4706, 0.013],
+        [13.5711, 0.0127],
         [13.6715, 0.0124],
-        [13.772, 0.0121],
-        [13.8724, 0.0118],
+        [13.772, 0.0122],
+        [13.8724, 0.0119],
         [13.9729, 0.0116],
-        [14.0733, 0.0113],
+        [14.0733, 0.0114],
         [14.1738, 0.0111],
         [14.2742, 0.0109],
-        [14.3747, 0.0106],
+        [14.3747, 0.0107],
         [14.4751, 0.0104],
         [14.5756, 0.0102],
-        [14.676, 0.0099],
+        [14.676, 0.01],
         [14.7765, 0.0097],
         [14.8769, 0.0095],
         [14.9774, 0.0093],
@@ -1586,21 +1661,21 @@ $(function(){
         [16.0824, 0.0073],
         [16.1828, 0.0072],
         [16.2833, 0.007],
-        [16.3837, 0.0069],
+        [16.3837, 0.0068],
         [16.4842, 0.0067],
-        [16.5846, 0.0066],
+        [16.5846, 0.0065],
         [16.6851, 0.0064],
         [16.7855, 0.0063],
-        [16.886, 0.0062],
+        [16.886, 0.0061],
         [16.9864, 0.006],
         [17.0869, 0.0059],
-        [17.1873, 0.0058],
+        [17.1873, 0.0057],
         [17.2878, 0.0056],
         [17.3882, 0.0055],
         [17.4887, 0.0054],
-        [17.5891, 0.0053],
-        [17.6896, 0.0052],
-        [17.7901, 0.0051],
+        [17.5891, 0.0052],
+        [17.6896, 0.0051],
+        [17.7901, 0.005],
         [17.8905, 0.0049],
         [17.991, 0.0048],
         [18.0914, 0.0047],
@@ -1611,17 +1686,17 @@ $(function(){
         [18.5937, 0.0042],
         [18.6941, 0.0041],
         [18.7946, 0.004],
-        [18.895, 0.004],
-        [18.9955, 0.0039],
-        [19.0959, 0.0038],
+        [18.895, 0.0039],
+        [18.9955, 0.0038],
+        [19.0959, 0.0037],
         [19.1964, 0.0037],
         [19.2968, 0.0036],
         [19.3973, 0.0035],
-        [19.4977, 0.0035],
-        [19.5982, 0.0034],
+        [19.4977, 0.0034],
+        [19.5982, 0.0033],
         [19.6986, 0.0033],
         [19.7991, 0.0032],
-        [19.8995, 0.0032],
+        [19.8995, 0.0031],
         [20, 0.0031]
       ],
       "id": "f1",
@@ -1637,213 +1712,213 @@ $(function(){
       "tooltip": {
         "useHTML": true,
         "headerFormat": "<b>Estimates and 95% CrI's :<\/b><br>",
-        "pointFormat": "\n    Mean = 4.96 (4.29,5.66)<br>\n    S.D = 4.69 (3.98,5.54)<br>\n    gamma shape = 1.13 (0.93,1.35)<br>\n    gamma scale = 4.44 (3.52,5.57)<br>"
+        "pointFormat": "\n    Mean = 4.98 (4.37,5.68)<br>\n    S.D = 4.66 (3.96,5.46)<br>\n    gamma shape = 1.15 (0.95,1.38)<br>\n    gamma scale = 4.37 (3.5,5.43)<br>"
       },
       "showInLegend": true,
       "enableMouseTracking": true
     },
     {
       "data": [
-        [0.01, 0.0366, 0.2655],
-        [0.1105, 0.0851, 0.2277],
-        [0.2109, 0.1038, 0.2175],
-        [0.3114, 0.1149, 0.2096],
-        [0.4118, 0.1223, 0.2034],
-        [0.5123, 0.1289, 0.1985],
-        [0.6127, 0.1323, 0.1947],
-        [0.7132, 0.1359, 0.1903],
-        [0.8136, 0.1379, 0.1871],
-        [0.9141, 0.1386, 0.1843],
-        [1.0145, 0.1389, 0.1815],
-        [1.115, 0.139, 0.1783],
-        [1.2154, 0.1389, 0.1754],
-        [1.3159, 0.1376, 0.1724],
-        [1.4163, 0.1363, 0.1695],
-        [1.5168, 0.1339, 0.1665],
-        [1.6172, 0.1322, 0.1636],
-        [1.7177, 0.1302, 0.1603],
-        [1.8181, 0.1283, 0.1573],
-        [1.9186, 0.1262, 0.1545],
-        [2.019, 0.1246, 0.152],
-        [2.1195, 0.1227, 0.1497],
-        [2.2199, 0.1206, 0.1473],
-        [2.3204, 0.1185, 0.1449],
-        [2.4209, 0.1161, 0.1426],
-        [2.5213, 0.1139, 0.1401],
-        [2.6218, 0.1118, 0.1375],
-        [2.7222, 0.1097, 0.1351],
-        [2.8227, 0.1076, 0.1327],
-        [2.9231, 0.1056, 0.1302],
-        [3.0236, 0.1038, 0.128],
-        [3.124, 0.102, 0.1256],
-        [3.2245, 0.1002, 0.1233],
-        [3.3249, 0.0983, 0.1209],
-        [3.4254, 0.0964, 0.1187],
-        [3.5258, 0.0946, 0.1164],
-        [3.6263, 0.0928, 0.1141],
-        [3.7267, 0.0909, 0.1117],
-        [3.8272, 0.089, 0.1095],
-        [3.9276, 0.0871, 0.1076],
-        [4.0281, 0.0853, 0.1054],
-        [4.1285, 0.0836, 0.1033],
-        [4.229, 0.0819, 0.1015],
-        [4.3294, 0.0802, 0.0995],
-        [4.4299, 0.0786, 0.0975],
-        [4.5304, 0.077, 0.0956],
-        [4.6308, 0.0754, 0.0937],
-        [4.7313, 0.0739, 0.0919],
-        [4.8317, 0.0724, 0.0901],
-        [4.9322, 0.0711, 0.0884],
-        [5.0326, 0.0697, 0.0865],
-        [5.1331, 0.0685, 0.0849],
-        [5.2335, 0.0672, 0.0833],
-        [5.334, 0.0659, 0.0816],
-        [5.4344, 0.0646, 0.08],
-        [5.5349, 0.0634, 0.0785],
-        [5.6353, 0.0622, 0.0768],
-        [5.7358, 0.061, 0.0752],
-        [5.8362, 0.0597, 0.0735],
-        [5.9367, 0.0584, 0.072],
-        [6.0371, 0.0572, 0.0706],
-        [6.1376, 0.0561, 0.0691],
-        [6.238, 0.0549, 0.0676],
-        [6.3385, 0.0538, 0.0663],
-        [6.4389, 0.0528, 0.0649],
-        [6.5394, 0.0517, 0.0635],
-        [6.6398, 0.0506, 0.0621],
-        [6.7403, 0.0493, 0.0607],
-        [6.8408, 0.0481, 0.0594],
-        [6.9412, 0.0469, 0.0582],
-        [7.0417, 0.0458, 0.0571],
-        [7.1421, 0.0446, 0.056],
-        [7.2426, 0.0436, 0.0548],
-        [7.343, 0.0427, 0.0537],
-        [7.4435, 0.0419, 0.0525],
-        [7.5439, 0.0409, 0.0515],
-        [7.6444, 0.04, 0.0505],
-        [7.7448, 0.0392, 0.0495],
-        [7.8453, 0.0383, 0.0485],
-        [7.9457, 0.0374, 0.0475],
-        [8.0462, 0.0367, 0.0466],
-        [8.1466, 0.0359, 0.0457],
-        [8.2471, 0.035, 0.0448],
-        [8.3475, 0.0342, 0.0439],
-        [8.448, 0.0333, 0.043],
-        [8.5484, 0.0325, 0.0421],
-        [8.6489, 0.0318, 0.0413],
-        [8.7493, 0.031, 0.0404],
-        [8.8498, 0.0303, 0.0396],
-        [8.9503, 0.0295, 0.0389],
-        [9.0507, 0.0288, 0.0381],
-        [9.1512, 0.0281, 0.0373],
-        [9.2516, 0.0274, 0.0365],
-        [9.3521, 0.0267, 0.0358],
-        [9.4525, 0.0261, 0.035],
-        [9.553, 0.0255, 0.0344],
-        [9.6534, 0.0249, 0.0337],
-        [9.7539, 0.0242, 0.033],
-        [9.8543, 0.0237, 0.0324],
-        [9.9548, 0.0231, 0.0318],
-        [10.0552, 0.0225, 0.0311],
-        [10.1557, 0.0219, 0.0306],
-        [10.2561, 0.0214, 0.03],
-        [10.3566, 0.0209, 0.0294],
-        [10.457, 0.0203, 0.0288],
-        [10.5575, 0.0198, 0.0282],
-        [10.6579, 0.0193, 0.0276],
-        [10.7584, 0.0188, 0.0271],
-        [10.8588, 0.0184, 0.0266],
-        [10.9593, 0.0179, 0.026],
-        [11.0597, 0.0175, 0.0255],
-        [11.1602, 0.0171, 0.0251],
-        [11.2607, 0.0167, 0.0246],
-        [11.3611, 0.0162, 0.0241],
-        [11.4616, 0.0159, 0.0237],
-        [11.562, 0.0155, 0.0232],
-        [11.6625, 0.0151, 0.0228],
-        [11.7629, 0.0147, 0.0224],
-        [11.8634, 0.0143, 0.022],
-        [11.9638, 0.0139, 0.0216],
-        [12.0643, 0.0136, 0.0212],
-        [12.1647, 0.0133, 0.0208],
-        [12.2652, 0.0129, 0.0204],
-        [12.3656, 0.0126, 0.0201],
-        [12.4661, 0.0123, 0.0197],
-        [12.5665, 0.012, 0.0193],
-        [12.667, 0.0117, 0.019],
-        [12.7674, 0.0114, 0.0186],
-        [12.8679, 0.0111, 0.0183],
-        [12.9683, 0.0108, 0.0179],
-        [13.0688, 0.0106, 0.0176],
-        [13.1692, 0.0103, 0.0172],
-        [13.2697, 0.01, 0.0169],
-        [13.3702, 0.0098, 0.0166],
-        [13.4706, 0.0096, 0.0163],
-        [13.5711, 0.0093, 0.016],
-        [13.6715, 0.0091, 0.0158],
-        [13.772, 0.0089, 0.0155],
-        [13.8724, 0.0086, 0.0152],
-        [13.9729, 0.0084, 0.0149],
+        [0.01, 0.0326, 0.2561],
+        [0.1105, 0.0788, 0.2238],
+        [0.2109, 0.0976, 0.2136],
+        [0.3114, 0.1102, 0.2058],
+        [0.4118, 0.119, 0.2004],
+        [0.5123, 0.1251, 0.1953],
+        [0.6127, 0.1293, 0.1917],
+        [0.7132, 0.1328, 0.1885],
+        [0.8136, 0.1348, 0.1847],
+        [0.9141, 0.1362, 0.181],
+        [1.0145, 0.1364, 0.1777],
+        [1.115, 0.1368, 0.1753],
+        [1.2154, 0.1365, 0.1726],
+        [1.3159, 0.1358, 0.1697],
+        [1.4163, 0.1349, 0.1671],
+        [1.5168, 0.1337, 0.1649],
+        [1.6172, 0.1324, 0.163],
+        [1.7177, 0.1306, 0.1605],
+        [1.8181, 0.1288, 0.1581],
+        [1.9186, 0.127, 0.1557],
+        [2.019, 0.1252, 0.153],
+        [2.1195, 0.1234, 0.1505],
+        [2.2199, 0.1215, 0.1479],
+        [2.3204, 0.1195, 0.1456],
+        [2.4209, 0.1175, 0.143],
+        [2.5213, 0.1155, 0.1401],
+        [2.6218, 0.1133, 0.1376],
+        [2.7222, 0.1112, 0.1348],
+        [2.8227, 0.1092, 0.1324],
+        [2.9231, 0.1071, 0.13],
+        [3.0236, 0.1051, 0.1279],
+        [3.124, 0.1033, 0.1257],
+        [3.2245, 0.1013, 0.1234],
+        [3.3249, 0.0992, 0.1212],
+        [3.4254, 0.0973, 0.119],
+        [3.5258, 0.0954, 0.117],
+        [3.6263, 0.0936, 0.1149],
+        [3.7267, 0.0919, 0.1129],
+        [3.8272, 0.0902, 0.1109],
+        [3.9276, 0.0887, 0.1088],
+        [4.0281, 0.0869, 0.1068],
+        [4.1285, 0.0853, 0.1048],
+        [4.229, 0.0836, 0.1028],
+        [4.3294, 0.0819, 0.1009],
+        [4.4299, 0.0802, 0.0989],
+        [4.5304, 0.0785, 0.097],
+        [4.6308, 0.0769, 0.095],
+        [4.7313, 0.0753, 0.0932],
+        [4.8317, 0.0738, 0.0913],
+        [4.9322, 0.0723, 0.0895],
+        [5.0326, 0.0708, 0.0877],
+        [5.1331, 0.0694, 0.0859],
+        [5.2335, 0.068, 0.0841],
+        [5.334, 0.0666, 0.0825],
+        [5.4344, 0.0653, 0.0808],
+        [5.5349, 0.064, 0.0791],
+        [5.6353, 0.0627, 0.0776],
+        [5.7358, 0.0614, 0.076],
+        [5.8362, 0.0602, 0.0745],
+        [5.9367, 0.0589, 0.073],
+        [6.0371, 0.0577, 0.0714],
+        [6.1376, 0.0566, 0.0699],
+        [6.238, 0.0554, 0.0685],
+        [6.3385, 0.0542, 0.0671],
+        [6.4389, 0.0531, 0.0657],
+        [6.5394, 0.0519, 0.0642],
+        [6.6398, 0.0509, 0.0628],
+        [6.7403, 0.0498, 0.0615],
+        [6.8408, 0.0488, 0.0603],
+        [6.9412, 0.0478, 0.059],
+        [7.0417, 0.0465, 0.0578],
+        [7.1421, 0.0454, 0.0566],
+        [7.2426, 0.0444, 0.0554],
+        [7.343, 0.0434, 0.0543],
+        [7.4435, 0.0424, 0.0532],
+        [7.5439, 0.0415, 0.0521],
+        [7.6444, 0.0406, 0.0511],
+        [7.7448, 0.0398, 0.05],
+        [7.8453, 0.0389, 0.0489],
+        [7.9457, 0.038, 0.048],
+        [8.0462, 0.0372, 0.047],
+        [8.1466, 0.0363, 0.046],
+        [8.2471, 0.0355, 0.0451],
+        [8.3475, 0.0347, 0.0442],
+        [8.448, 0.034, 0.0434],
+        [8.5484, 0.0332, 0.0425],
+        [8.6489, 0.0324, 0.0417],
+        [8.7493, 0.0316, 0.0409],
+        [8.8498, 0.0309, 0.0401],
+        [8.9503, 0.0301, 0.0394],
+        [9.0507, 0.0294, 0.0385],
+        [9.1512, 0.0288, 0.0378],
+        [9.2516, 0.0282, 0.0371],
+        [9.3521, 0.0275, 0.0363],
+        [9.4525, 0.0268, 0.0356],
+        [9.553, 0.0261, 0.0349],
+        [9.6534, 0.0255, 0.0342],
+        [9.7539, 0.0249, 0.0336],
+        [9.8543, 0.0243, 0.0329],
+        [9.9548, 0.0237, 0.0322],
+        [10.0552, 0.0231, 0.0316],
+        [10.1557, 0.0225, 0.031],
+        [10.2561, 0.0219, 0.0304],
+        [10.3566, 0.0214, 0.0298],
+        [10.457, 0.0209, 0.0293],
+        [10.5575, 0.0203, 0.0287],
+        [10.6579, 0.0198, 0.0282],
+        [10.7584, 0.0193, 0.0276],
+        [10.8588, 0.0188, 0.0271],
+        [10.9593, 0.0184, 0.0266],
+        [11.0597, 0.0179, 0.0261],
+        [11.1602, 0.0174, 0.0256],
+        [11.2607, 0.017, 0.0251],
+        [11.3611, 0.0165, 0.0246],
+        [11.4616, 0.0162, 0.0241],
+        [11.562, 0.0157, 0.0236],
+        [11.6625, 0.0153, 0.0232],
+        [11.7629, 0.0149, 0.0228],
+        [11.8634, 0.0145, 0.0223],
+        [11.9638, 0.0141, 0.0219],
+        [12.0643, 0.0138, 0.0215],
+        [12.1647, 0.0134, 0.0211],
+        [12.2652, 0.0131, 0.0207],
+        [12.3656, 0.0127, 0.0203],
+        [12.4661, 0.0124, 0.0199],
+        [12.5665, 0.0121, 0.0196],
+        [12.667, 0.0118, 0.0192],
+        [12.7674, 0.0115, 0.0188],
+        [12.8679, 0.0112, 0.0184],
+        [12.9683, 0.0109, 0.0181],
+        [13.0688, 0.0106, 0.0178],
+        [13.1692, 0.0103, 0.0174],
+        [13.2697, 0.0101, 0.0171],
+        [13.3702, 0.0098, 0.0168],
+        [13.4706, 0.0096, 0.0165],
+        [13.5711, 0.0093, 0.0162],
+        [13.6715, 0.0091, 0.0159],
+        [13.772, 0.0089, 0.0156],
+        [13.8724, 0.0086, 0.0153],
+        [13.9729, 0.0084, 0.015],
         [14.0733, 0.0082, 0.0147],
         [14.1738, 0.008, 0.0144],
         [14.2742, 0.0078, 0.0142],
         [14.3747, 0.0076, 0.0139],
         [14.4751, 0.0074, 0.0137],
         [14.5756, 0.0072, 0.0134],
-        [14.676, 0.007, 0.0132],
-        [14.7765, 0.0069, 0.0129],
-        [14.8769, 0.0067, 0.0127],
-        [14.9774, 0.0065, 0.0125],
-        [15.0778, 0.0064, 0.0122],
-        [15.1783, 0.0062, 0.012],
-        [15.2787, 0.006, 0.0118],
-        [15.3792, 0.0059, 0.0116],
-        [15.4796, 0.0057, 0.0114],
-        [15.5801, 0.0056, 0.0111],
-        [15.6806, 0.0055, 0.0109],
-        [15.781, 0.0053, 0.0107],
-        [15.8815, 0.0052, 0.0105],
-        [15.9819, 0.0051, 0.0103],
-        [16.0824, 0.0049, 0.0101],
-        [16.1828, 0.0048, 0.0099],
-        [16.2833, 0.0047, 0.0097],
-        [16.3837, 0.0046, 0.0096],
-        [16.4842, 0.0044, 0.0094],
-        [16.5846, 0.0043, 0.0092],
-        [16.6851, 0.0042, 0.009],
-        [16.7855, 0.0041, 0.0089],
-        [16.886, 0.004, 0.0087],
-        [16.9864, 0.0039, 0.0086],
-        [17.0869, 0.0038, 0.0084],
-        [17.1873, 0.0037, 0.0082],
-        [17.2878, 0.0036, 0.0081],
-        [17.3882, 0.0035, 0.0079],
-        [17.4887, 0.0034, 0.0078],
-        [17.5891, 0.0033, 0.0077],
-        [17.6896, 0.0032, 0.0075],
-        [17.7901, 0.0031, 0.0074],
-        [17.8905, 0.0031, 0.0072],
-        [17.991, 0.003, 0.0071],
-        [18.0914, 0.0029, 0.007],
-        [18.1919, 0.0028, 0.0069],
+        [14.676, 0.007, 0.0131],
+        [14.7765, 0.0068, 0.0129],
+        [14.8769, 0.0066, 0.0126],
+        [14.9774, 0.0065, 0.0124],
+        [15.0778, 0.0063, 0.0121],
+        [15.1783, 0.0061, 0.0119],
+        [15.2787, 0.006, 0.0117],
+        [15.3792, 0.0058, 0.0115],
+        [15.4796, 0.0057, 0.0113],
+        [15.5801, 0.0055, 0.011],
+        [15.6806, 0.0054, 0.0108],
+        [15.781, 0.0052, 0.0106],
+        [15.8815, 0.0051, 0.0104],
+        [15.9819, 0.0049, 0.0102],
+        [16.0824, 0.0048, 0.01],
+        [16.1828, 0.0047, 0.0099],
+        [16.2833, 0.0046, 0.0097],
+        [16.3837, 0.0044, 0.0095],
+        [16.4842, 0.0043, 0.0093],
+        [16.5846, 0.0042, 0.0092],
+        [16.6851, 0.0041, 0.009],
+        [16.7855, 0.004, 0.0088],
+        [16.886, 0.0039, 0.0087],
+        [16.9864, 0.0038, 0.0085],
+        [17.0869, 0.0037, 0.0084],
+        [17.1873, 0.0036, 0.0082],
+        [17.2878, 0.0035, 0.0081],
+        [17.3882, 0.0034, 0.0079],
+        [17.4887, 0.0033, 0.0078],
+        [17.5891, 0.0032, 0.0076],
+        [17.6896, 0.0031, 0.0075],
+        [17.7901, 0.003, 0.0073],
+        [17.8905, 0.003, 0.0072],
+        [17.991, 0.0029, 0.0071],
+        [18.0914, 0.0028, 0.0069],
+        [18.1919, 0.0027, 0.0068],
         [18.2923, 0.0027, 0.0067],
-        [18.3928, 0.0027, 0.0066],
-        [18.4932, 0.0026, 0.0065],
-        [18.5937, 0.0025, 0.0064],
-        [18.6941, 0.0025, 0.0063],
-        [18.7946, 0.0024, 0.0062],
-        [18.895, 0.0023, 0.006],
-        [18.9955, 0.0023, 0.0059],
-        [19.0959, 0.0022, 0.0058],
-        [19.1964, 0.0022, 0.0057],
-        [19.2968, 0.0021, 0.0056],
-        [19.3973, 0.002, 0.0055],
-        [19.4977, 0.002, 0.0054],
-        [19.5982, 0.0019, 0.0053],
-        [19.6986, 0.0019, 0.0052],
-        [19.7991, 0.0018, 0.0051],
-        [19.8995, 0.0018, 0.005],
-        [20, 0.0017, 0.005]
+        [18.3928, 0.0026, 0.0065],
+        [18.4932, 0.0025, 0.0064],
+        [18.5937, 0.0025, 0.0063],
+        [18.6941, 0.0024, 0.0062],
+        [18.7946, 0.0023, 0.0061],
+        [18.895, 0.0023, 0.0059],
+        [18.9955, 0.0022, 0.0058],
+        [19.0959, 0.0021, 0.0057],
+        [19.1964, 0.0021, 0.0056],
+        [19.2968, 0.002, 0.0055],
+        [19.3973, 0.002, 0.0054],
+        [19.4977, 0.0019, 0.0053],
+        [19.5982, 0.0019, 0.0052],
+        [19.6986, 0.0018, 0.0051],
+        [19.7991, 0.0018, 0.005],
+        [19.8995, 0.0017, 0.005],
+        [20, 0.0017, 0.0049]
       ],
       "keys": ["x", "low", "high"],
       "type": "arearange",
