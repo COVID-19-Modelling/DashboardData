@@ -1,17 +1,22 @@
 [
 {
   "Type": "Dashboard",
-  "Name": "Coronavirus COVID-19 Global Cases by the CSSE at Johns Hopkins University (JHU)",
+  "Name": "Coronavirus COVID-19 Global Cases by the CSSE at Johns Hopkins University",
   "Link": "https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"
 },
 {
   "Type": "Dashboard",
-  "Name": "COVID-19 dashboard, Taiwan Centers for Disease Control",
+  "Name": "COVID-19 in Taiwan, Centers for Disease Control, Taiwan",
   "Link": "https://sites.google.com/cdc.gov.tw/2019ncov/taiwan?authuser=0"
 },
 {
   "Type": "Dashboard",
-  "Name": "COVID-19 dashboard, Hong Kong",
-  "Link": "https://chp-dashboard.geodata.gov.hk/covid-19/zh.html"
+  "Name": "Latest Situation of COVID-19 in Hong Kong, Centre for Health Protection, Hong Kong",
+  "Link": "https://chp-dashboard.geodata.gov.hk/covid-19/en.html"
+},
+  {
+  "Type": "Dashboard",
+  "Name": "Coronaboard, South Korea",
+  "Link": "https://coronaboard.kr/"
 }
 ]
