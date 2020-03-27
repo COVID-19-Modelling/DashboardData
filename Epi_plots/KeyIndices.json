@@ -1,12 +1,4 @@
 {
-"Confirmed": {
-  "Total": 0,
-  "Week": 0
-},
-"Deaths": {
-  "Total": 0,
-  "Week": 0
-},
 "Recovered": {
   "Total": 0,
   "Week": 0
@@ -22,14 +14,6 @@
 "IncubationTime": {
   "Total": {"mean": 10, "lower": 0, "upper": 20},
   "Week": {"mean": 10, "lower": 0, "upper": 20}
-},
-"PercentageImport": {
-  "Total": "80%",
-  "Week": "80%"
-},
-"YieldRate": {
-  "Total": {"N_tested": 10000, "Yield": "0.1%"},
-  "Week": {"N_tested": 1000, "Yield": "0.1%"}
 },
 "LastUpdate": "01/01/2020"
 }
