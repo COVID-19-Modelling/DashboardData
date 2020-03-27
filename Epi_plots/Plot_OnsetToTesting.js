@@ -2,7 +2,7 @@ $(function(){
 	$('#gOTT').highcharts(
 {
   "title": {
-    "text": "Onset-to-Testing"
+    "text": ""
   },
   "yAxis": [
     {
@@ -11,7 +11,7 @@ $(function(){
         "text": "Density"
       },
       "min": 0,
-      "max": 0.2,
+      "max": 0.239,
       "minPadding": 0,
       "floor": 0,
       "height": "100%",
@@ -25,10 +25,10 @@ $(function(){
       "labels": {
         "enabled": false
       },
-      "min": 0,
-      "max": 64.954,
+      "min": 1,
+      "max": 79.0892,
       "minPadding": 0,
-      "floor": 0,
+      "floor": 1,
       "height": "100%",
       "top": "0%",
       "opposite": true
@@ -53,7 +53,7 @@ $(function(){
   },
   "xAxis": {
     "title": {
-      "text": "Days"
+      "text": "Delay from symptom onset to testing (days)"
     },
     "min": 0,
     "max": 20
@@ -683,7 +683,7 @@ $(function(){
       "yAxis": 1,
       "zIndex": 0,
       "marker": {
-        "radius": 4.12,
+        "radius": 5.18,
         "symbol": "circle"
       },
       "color": "#961d1d",
@@ -909,7 +909,7 @@ $(function(){
       "tooltip": {
         "useHTML": true,
         "headerFormat": "<b>Estimates and 95% CrI's :<\/b><br>",
-        "pointFormat": "\n    Mean = 4.94 (4.13,6.01)<br>\n    S.D = 4.86 (3.95,6.07)<br>\n    gamma shape = 1.04 (0.83,1.3)<br>\n    gamma scale = 4.8 (3.58,6.38)<br>"
+        "pointFormat": "\n                 Mean = 4.94 (4.13,6.01)<br>\n                 S.D = 4.86 (3.95,6.07)<br>\n                 gamma shape = 1.04 (0.83,1.3)<br>\n                 gamma scale = 4.8 (3.58,6.38)<br>"
       },
       "showInLegend": true,
       "enableMouseTracking": true
@@ -1486,7 +1486,7 @@ $(function(){
       "yAxis": 1,
       "zIndex": 0,
       "marker": {
-        "radius": 4.12,
+        "radius": 5.18,
         "symbol": "circle"
       },
       "color": "#FFA500",
@@ -1712,7 +1712,7 @@ $(function(){
       "tooltip": {
         "useHTML": true,
         "headerFormat": "<b>Estimates and 95% CrI's :<\/b><br>",
-        "pointFormat": "\n    Mean = 4.98 (4.37,5.68)<br>\n    S.D = 4.66 (3.96,5.46)<br>\n    gamma shape = 1.15 (0.95,1.38)<br>\n    gamma scale = 4.37 (3.5,5.43)<br>"
+        "pointFormat": "\n                 Mean = 4.98 (4.37,5.68)<br>\n                 S.D = 4.66 (3.96,5.46)<br>\n                 gamma shape = 1.15 (0.95,1.38)<br>\n                 gamma scale = 4.37 (3.5,5.43)<br>"
       },
       "showInLegend": true,
       "enableMouseTracking": true
@@ -1940,10 +1940,10 @@ $(function(){
     "enabled": true,
     "floating": true,
     "backgroundColor": "white",
-    "align": "left",
+    "align": "right",
     "verticalAlign": "top",
-    "layout": "horizontal",
-    "x": 50,
+    "layout": "vertical",
+    "x": 0,
     "y": 30
   },
   "chart": {

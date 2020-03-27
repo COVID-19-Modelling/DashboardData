@@ -2,7 +2,7 @@ $(function(){
 	$('#gSI').highcharts(
 {
   "title": {
-    "text": "Serial Interval"
+    "text": ""
   },
   "yAxis": [
     {
@@ -11,7 +11,7 @@ $(function(){
         "text": "Density"
       },
       "min": 0,
-      "max": 0.2,
+      "max": 0.1815,
       "minPadding": 0,
       "floor": 0,
       "height": "100%",
@@ -53,7 +53,7 @@ $(function(){
   },
   "xAxis": {
     "title": {
-      "text": "Days"
+      "text": "Serial Interval (days)"
     },
     "min": 0,
     "max": 20
@@ -69,107 +69,107 @@ $(function(){
         {
           "x": 6,
           "y": 1,
-          "labels": "<b>Case ID:<\/b>#08<br><b>Confirm at:<\/b>2020-01-28<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>52<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#05<br><b>Infected at/in:<\/b>house<br><hr>"
+          "labels": "<b>Case ID:<\/b>#09<br><b>Confirm at:<\/b>2020-01-30<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>F<br><b>Age group:<\/b>45<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#10<br><b>Infected at/in:<\/b>house<br><hr>"
         },
         {
           "x": 10,
           "y": 1,
-          "labels": "<b>Case ID:<\/b>#08<br><b>Confirm at:<\/b>2020-01-28<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>52<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#05<br><b>Infected at/in:<\/b>house<br><hr>"
+          "labels": "<b>Case ID:<\/b>#21<br><b>Confirm at:<\/b>2020-02-18<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>F<br><b>Age group:<\/b>85<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#19<br><b>Infected at/in:<\/b>family<br><hr>"
         },
         {
           "x": 1,
           "y": 2,
-          "labels": "<b>Case ID:<\/b>#08<br><b>Confirm at:<\/b>2020-01-28<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>52<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#05<br><b>Infected at/in:<\/b>house<br><hr>"
+          "labels": "<b>Case ID:<\/b>#22<br><b>Confirm at:<\/b>2020-02-18<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#19<br><b>Infected at/in:<\/b>family<br><hr>"
         },
         {
           "x": 7,
           "y": 1,
-          "labels": "<b>Case ID:<\/b>#08<br><b>Confirm at:<\/b>2020-01-28<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>52<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#05<br><b>Infected at/in:<\/b>house<br><hr>"
+          "labels": "<b>Case ID:<\/b>#23<br><b>Confirm at:<\/b>2020-02-19<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>F<br><b>Age group:<\/b>65<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#19<br><b>Infected at/in:<\/b>family<br><hr>"
         },
         {
           "x": 5,
           "y": 1,
-          "labels": "<b>Case ID:<\/b>#08<br><b>Confirm at:<\/b>2020-01-28<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>52<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#05<br><b>Infected at/in:<\/b>house<br><hr>"
+          "labels": "<b>Case ID:<\/b>#27<br><b>Confirm at:<\/b>2020-02-23<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>85<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#28<br><b>Infected at/in:<\/b>house<br><hr>"
         },
         {
           "x": 2,
           "y": 1,
-          "labels": "<b>Case ID:<\/b>#08<br><b>Confirm at:<\/b>2020-01-28<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>52<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#05<br><b>Infected at/in:<\/b>house<br><hr>"
+          "labels": "<b>Case ID:<\/b>#28<br><b>Confirm at:<\/b>2020-02-23<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>55<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#29<br><b>Infected at/in:<\/b>family<br><hr>"
         },
         {
           "x": 6,
           "y": 2,
-          "labels": "<b>Case ID:<\/b>#08<br><b>Confirm at:<\/b>2020-01-28<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>52<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#05<br><b>Infected at/in:<\/b>house<br><hr>"
+          "labels": "<b>Case ID:<\/b>#30<br><b>Confirm at:<\/b>2020-02-24<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>F<br><b>Age group:<\/b>75<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#28<br><b>Infected at/in:<\/b>house<br><hr>"
         },
         {
           "x": 19,
           "y": 1,
-          "labels": "<b>Case ID:<\/b>#08<br><b>Confirm at:<\/b>2020-01-28<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>52<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#05<br><b>Infected at/in:<\/b>house<br><hr>"
+          "labels": "<b>Case ID:<\/b>#32<br><b>Confirm at:<\/b>2020-02-26<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>F<br><b>Age group:<\/b>NA<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#27<br><b>Infected at/in:<\/b>house<br><hr>"
         },
         {
           "x": 2,
           "y": 2,
-          "labels": "<b>Case ID:<\/b>#08<br><b>Confirm at:<\/b>2020-01-28<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>52<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#05<br><b>Infected at/in:<\/b>house<br><hr>"
+          "labels": "<b>Case ID:<\/b>#35<br><b>Confirm at:<\/b>2020-02-29<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>NA<br><b>Age group:<\/b>55<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#34<br><b>Infected at/in:<\/b>hospital<br><hr>"
         },
         {
           "x": 2,
           "y": 3,
-          "labels": "<b>Case ID:<\/b>#08<br><b>Confirm at:<\/b>2020-01-28<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>52<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#05<br><b>Infected at/in:<\/b>house<br><hr>"
+          "labels": "<b>Case ID:<\/b>#36<br><b>Confirm at:<\/b>2020-02-29<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>NA<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#34<br><b>Infected at/in:<\/b>hospital<br><hr>"
         },
         {
           "x": 2.2,
           "y": 1,
-          "labels": "<b>Case ID:<\/b>#08<br><b>Confirm at:<\/b>2020-01-28<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>52<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#05<br><b>Infected at/in:<\/b>house<br><hr>"
+          "labels": "<b>Case ID:<\/b>#37<br><b>Confirm at:<\/b>2020-02-29<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>NA<br><b>Age group:<\/b>25<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#34<br><b>Infected at/in:<\/b>hospital<br><hr>"
         },
         {
           "x": 2.2,
           "y": 2,
-          "labels": "<b>Case ID:<\/b>#08<br><b>Confirm at:<\/b>2020-01-28<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>52<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#05<br><b>Infected at/in:<\/b>house<br><hr>"
+          "labels": "<b>Case ID:<\/b>#38<br><b>Confirm at:<\/b>2020-02-29<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>NA<br><b>Age group:<\/b>45<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#34<br><b>Infected at/in:<\/b>hospital<br><hr>"
         },
         {
           "x": 12,
           "y": 1,
-          "labels": "<b>Case ID:<\/b>#08<br><b>Confirm at:<\/b>2020-01-28<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>52<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#05<br><b>Infected at/in:<\/b>house<br><hr>"
+          "labels": "<b>Case ID:<\/b>#43<br><b>Confirm at:<\/b>2020-03-05<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>F<br><b>Age group:<\/b>55<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#39<br><b>Infected at/in:<\/b>community<br><hr>"
         },
         {
           "x": 4.4,
           "y": 1,
-          "labels": "<b>Case ID:<\/b>#08<br><b>Confirm at:<\/b>2020-01-28<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>52<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#05<br><b>Infected at/in:<\/b>house<br><hr>"
+          "labels": "<b>Case ID:<\/b>#50<br><b>Confirm at:<\/b>2020-03-13<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>50<br><b>Travelled to:<\/b><br><hr>"
         },
         {
           "x": 3,
           "y": 1,
-          "labels": "<b>Case ID:<\/b>#08<br><b>Confirm at:<\/b>2020-01-28<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>52<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#05<br><b>Infected at/in:<\/b>house<br><hr>"
+          "labels": "<b>Case ID:<\/b>#103<br><b>Confirm at:<\/b>2020-03-19<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>15<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#59<br><b>Infected at/in:<\/b>NA<br><hr>"
         },
         {
           "x": 3,
           "y": 2,
-          "labels": "<b>Case ID:<\/b>#08<br><b>Confirm at:<\/b>2020-01-28<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>52<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#05<br><b>Infected at/in:<\/b>house<br><hr>"
+          "labels": "<b>Case ID:<\/b>#124<br><b>Confirm at:<\/b>2020-03-20<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#160<br><b>Infected at/in:<\/b>work<br><hr>"
         },
         {
           "x": 5,
           "y": 2,
-          "labels": "<b>Case ID:<\/b>#08<br><b>Confirm at:<\/b>2020-01-28<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>52<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#05<br><b>Infected at/in:<\/b>house<br><hr>"
+          "labels": "<b>Case ID:<\/b>#130<br><b>Confirm at:<\/b>2020-03-20<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>F<br><b>Age group:<\/b>15<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#59<br><b>Infected at/in:<\/b>NA<br><hr>"
         },
         {
           "x": 3,
           "y": 3,
-          "labels": "<b>Case ID:<\/b>#08<br><b>Confirm at:<\/b>2020-01-28<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>52<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#05<br><b>Infected at/in:<\/b>house<br><hr>"
+          "labels": "<b>Case ID:<\/b>#168<br><b>Confirm at:<\/b>2020-03-22<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#160<br><b>Infected at/in:<\/b>work<br><hr>"
         },
         {
           "x": 3,
           "y": 4,
-          "labels": "<b>Case ID:<\/b>#08<br><b>Confirm at:<\/b>2020-01-28<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>52<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#05<br><b>Infected at/in:<\/b>house<br><hr>"
+          "labels": "<b>Case ID:<\/b>#169<br><b>Confirm at:<\/b>2020-03-22<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>F<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#160<br><b>Infected at/in:<\/b>work<br><hr>"
         },
         {
           "x": 4,
           "y": 1,
-          "labels": "<b>Case ID:<\/b>#08<br><b>Confirm at:<\/b>2020-01-28<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>52<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#05<br><b>Infected at/in:<\/b>house<br><hr>"
+          "labels": "<b>Case ID:<\/b>#216<br><b>Confirm at:<\/b>2020-03-24<br><b>Type:<\/b>Locally acquired<br><b>Sex:<\/b>M<br><b>Age group:<\/b>35<br><b>Travelled to:<\/b><br><hr><b>Infected by:<\/b>#84<br><b>Infected at/in:<\/b>NA<br><hr>"
         }
       ],
       "type": "scatter",
       "id": "dat0",
-      "name": "Case (3 days ago)",
+      "name": "Case ",
       "yAxis": 1,
       "zIndex": 0,
       "marker": {
@@ -388,7 +388,7 @@ $(function(){
       ],
       "id": "f0",
       "type": "line",
-      "name": "Fitted distribution (3 days ago)",
+      "name": "Fitted distribution ",
       "yAxis": 0,
       "zIndex": 1,
       "keys": ["x", "y"],
@@ -399,7 +399,7 @@ $(function(){
       "tooltip": {
         "useHTML": true,
         "headerFormat": "<b>Estimates and 95% CrI's :<\/b><br>",
-        "pointFormat": "\n    Mean = 5.13 (3.48,7.36)<br>\n    S.D = 4.11 (2.62,6.78)<br>\n    gamma shape = 1.67 (0.82,2.9)<br>\n    gamma scale = 3.39 (1.64,6.85)<br>"
+        "pointFormat": "\n                 Mean = 5.13 (3.48,7.36)<br>\n                 S.D = 4.11 (2.62,6.78)<br>\n                 gamma shape = 1.67 (0.82,2.9)<br>\n                 gamma scale = 3.39 (1.64,6.85)<br>"
       },
       "showInLegend": true,
       "enableMouseTracking": true
@@ -627,10 +627,10 @@ $(function(){
     "enabled": true,
     "floating": true,
     "backgroundColor": "white",
-    "align": "left",
+    "align": "right",
     "verticalAlign": "top",
-    "layout": "horizontal",
-    "x": 50,
+    "layout": "vertical",
+    "x": 0,
     "y": 30
   },
   "chart": {

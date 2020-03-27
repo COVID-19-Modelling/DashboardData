@@ -1,5 +1,5 @@
 $(function(){
-	$('#selectorid').highcharts(
+	$('#gEPICs').highcharts(
 {
   "title": [],
   "yAxis": [
@@ -960,10 +960,10 @@ $(function(){
     "enabled": true,
     "floating": true,
     "backgroundColor": "white",
-    "align": "left",
+    "align": "right",
     "verticalAlign": "top",
-    "layout": "horizontal",
-    "x": 50,
+    "layout": "vertical",
+    "x": 0,
     "y": 30
   },
   "chart": {
