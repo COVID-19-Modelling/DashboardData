@@ -902,6 +902,7 @@ $(function(){
       "yAxis": 0,
       "zIndex": 1,
       "keys": ["x", "y"],
+      "threshold": 0,
       "color": "#961d1d",
       "marker": {
         "enabled": false
@@ -1121,6 +1122,7 @@ $(function(){
       "type": "arearange",
       "linkedTo": "f0",
       "color": "#961d1d",
+      "threshold": 0,
       "fillOpacity": 0.3,
       "lineWidth": 0,
       "zIndex": 0,
@@ -1705,6 +1707,7 @@ $(function(){
       "yAxis": 0,
       "zIndex": 2,
       "keys": ["x", "y"],
+      "threshold": 0,
       "color": "#FFA500",
       "marker": {
         "enabled": false
@@ -1924,6 +1927,7 @@ $(function(){
       "type": "arearange",
       "linkedTo": "f1",
       "color": "#FFA500",
+      "threshold": 0,
       "fillOpacity": 0.3,
       "lineWidth": 0,
       "zIndex": 2,
@@ -1950,10 +1954,11 @@ $(function(){
     "style": {
       "fontSize": "1em"
     },
-    "animation": true
+    "animation": true,
+    "zoomType": "x"
   },
   "caption": {
-    "text": "<i>Last updated 2020-03-26<\/i>",
+    "text": "<i>Last updated 2020-03-27<\/i>",
     "useHTML": true,
     "align": "right",
     "verticalAlign": "bottom"

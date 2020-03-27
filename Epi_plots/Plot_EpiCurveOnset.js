@@ -7,8 +7,6 @@ $(function(){
       "title": {
         "text": "Case count"
       },
-      "min": 0,
-      "minPadding": 0,
       "floor": 0,
       "height": "100%",
       "top": "0%",
@@ -19,8 +17,6 @@ $(function(){
       "title": {
         "text": "Time-varying reproductuve numbers"
       },
-      "min": 0,
-      "minPadding": 0,
       "floor": 0,
       "height": "100%",
       "top": "0%",
@@ -619,6 +615,7 @@ $(function(){
         }
       ],
       "type": "line",
+      "threshold": 0,
       "yAxis": 0,
       "name": "Total",
       "visible": false,
@@ -1199,6 +1196,7 @@ $(function(){
       "type": "column",
       "color": "#e67e00",
       "stacking": "normal",
+      "threshold": 0,
       "yAxis": 0,
       "zIndex": 0,
       "name": "Indigenous",
@@ -1780,6 +1778,7 @@ $(function(){
       "type": "column",
       "color": "#4682B4",
       "stacking": "normal",
+      "threshold": 0,
       "yAxis": 0,
       "zIndex": 0,
       "name": "Imported",
@@ -2363,6 +2362,7 @@ $(function(){
       "color": "#B22222",
       "id": "Rt",
       "name": "Rt",
+      "threshold": 0,
       "zIndex": 2
     },
     {
@@ -3011,6 +3011,7 @@ $(function(){
       "type": "arearange",
       "yAxis": 1,
       "linkedTo": "Rt",
+      "threshold": 0,
       "color": "#B22222",
       "fillOpacity": 0.5,
       "lineWidth": 0,
@@ -3079,7 +3080,8 @@ $(function(){
     "style": {
       "fontSize": "1em"
     },
-    "animation": true
+    "animation": true,
+    "zoomType": "x"
   },
   "caption": {
     "text": "<i>Last updated 2020-03-27<\/i>",
