@@ -1,4 +1,16 @@
 {
+"Confirmed": {
+  "Total": 0,
+  "Week": 0
+},
+"Death": {
+  "Total": 0,
+  "Week": 0
+},
+"Recovered": {
+  "Total": 0,
+  "Week": 0
+},
 "Serial Interval": {
   "Total": {"mean": 10, "lower": 0, "upper": 20},
   "Week": {"mean": 10, "lower": 0, "upper": 20}
