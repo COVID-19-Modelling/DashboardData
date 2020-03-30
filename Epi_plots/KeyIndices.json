@@ -4,8 +4,8 @@
   "Week": 0
 },
 "Serial Interval": {
-  "Total": {"mean": 10, "lower": 0, "upper": 20},
-  "Week": {"mean": 10, "lower": 0, "upper": 20}
+  "Total": {"mean": 5.1, "lower": 3.5, "upper": 7.4},
+  "Week": {"mean": 5.1, "lower": 3.5, "upper": 7.4}
 },
 "Rt": {
   "Total": {"mean": 0.5, "lower": 0, "upper": 1},
