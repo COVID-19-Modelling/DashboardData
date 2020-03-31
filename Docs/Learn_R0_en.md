@@ -12,10 +12,11 @@ Where no one else immune to the infection, how many infections can be generated 
   - By air: wider spreading, sustaining shorter
   - By aerosol: intermediate spreading, sustain longer  
   - By close contacts: narrower spreading, pathogen survive according to surfaces
+  
 **2. Disease duration: longer disease duration, larger R0**
 - How long the treatment does need
 - How deadly the disease is
 
-
+### FAQ
 **Is there one R0 for one disease?**
 - No. even for one disease, R0 varies by weather, crowdedness, setting specific behaviour, health systems, etc.
