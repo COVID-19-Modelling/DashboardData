@@ -1,21 +1,17 @@
-This is a study for ...
-
-## Objectives
-
-- A
-- B
+### Method
 
 
-## Why is this important?
-
-
-## Data:
-
-- Data A
-- Data B
+### Individual effective reproductive number
 
 
 
 
-### Reference
-XXX 
+
+### Time-varying effective reproductive number
+
+
+
+### Interval estimation
+The serial interval, incubation period and the days from onset to testing are all doubly interval-censored in the data. 
+
+
