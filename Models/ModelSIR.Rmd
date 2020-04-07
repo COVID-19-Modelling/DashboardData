@@ -1,0 +1,26 @@
+---
+output: html_document
+---
+
+
+### SIR model
+A Suscepitable-Infectious-Recovered (SIR) model consider an population is made of three types of people
+
+- $I$: number of infectious people
+- $S$: number of people who can be infected
+- $N$: population size of whom can be reached by the pathogen
+
+
+The model is usually formulated as 
+
+$$ \frac{dS}{dt}=- \beta \frac{I}{N}S $$
+$$ \frac{dI}{dt}=\beta \frac{I}{N}S - (\gamma + \mu) I $$
+
+
+
+#### Parameters
+
+- $\beta$: transmission rate, per contact-day
+- $\gamma$: recovery rate, per day 
+- $\mu$: death rate, per day
+- $N$: population size of whom can be reached by the pathogen
