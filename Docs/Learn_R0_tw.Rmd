@@ -1,8 +1,10 @@
 ---
-output: html_document
+output: 
+  html_document:
+    css: docs.css
 ---
 
-在一個所有人都可以被感染的時候，一個有傳染力的新病人可以傳給多少人 
+#### 在一個所有人都可以被感染的時候，一個有傳染力的新病人可以傳給多少人 
 
 ### Why is this important?
 
