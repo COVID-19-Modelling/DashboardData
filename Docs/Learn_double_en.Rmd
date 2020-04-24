@@ -1,0 +1,25 @@
+---
+output: 
+  html_document:
+    css: docs.css
+---
+
+#### **Doubling time** evaluates when the epi size will get doubled. 
+
+
+### Why is this important?
+- We can have a quick deadline for preparing and deploying resources.
+- Decreasing doubling time: the outbreaking is happening
+- Increasing doubling time: the epidemic is getting controlled
+
+
+
+### What is needed for calculating doubling time
+- The time-series of cumulative cases
+
+
+### To be noted that, doubling time
+- does not consider the transmission components.
+- is only useful in the beginning of an epidemic
+- will be less useful when the herd immunity becomes significant (that is, the epi starts decelerating).
+- will go infinity when the epi is well-controlled

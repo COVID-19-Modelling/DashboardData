@@ -6,28 +6,36 @@ output:
 
 #### 在一個所有人都可以被感染的時候，一個有傳染力的新病人可以傳給多少人 
 
-### Why is this important?
 
-- R0 can help people having a quick understanding of the disease and taking actions as fast as possible.
+### 為什麼重要呢?
+- R0 可以讓我們快摙了解一個疫情的傳播特徵，快速作出相對應的行動
+- 高R0 代表傳播快、恢復慢或死亡低
+- 低R0 代表傳播慢、烣復快或死亡高
 
-### What we need to estimate R0
-**1. Contact and transmission: easier to transmit, larger R0**
 
-- How people usually contact
-  - How people greeting
-  - How people travelling
-- How the pathogen transmit
-  - By air: wider spreading, sustaining shorter
-  - By aerosol: intermediate spreading, sustain longer  
-  - By close contacts: narrower spreading, pathogen survive according to surfaces
+### 確切來說有什麼會影響R0呢？
+**1. 傳播: 高傳播、高接觸 $\rightarrow$ 高R0**
+
+- 人們平常怎麼接觸
+  - 打招呼：說Hello、握手、擁抱
+  - 交通：車上人數、通風
+- 病源怎麼傳播
+  - 空氣：傳很遠、但活不久
+  - 氣膠：傳沒那麼遠、溫濕度影響大
+  - 近距離接觸：親近的人才會傳到、病源依不同表面有不同存活力
   
-**2. Disease duration: longer disease duration, larger R0**
+**2. 可傳染期: 可傳染的狀態可以停留越久 $\rightarrow$ R0越高**
 
-- How long the treatment does need
-- How deadly the disease is
+- 越難治好可傳染期越長
+- 致死率越高可傳染越短
 
-### FAQ
-**Is there one R0 for one disease?**
 
-- No. even for one disease, R0 varies by weather, crowdedness, setting specific behaviour, health systems, etc.
+### 常見誤會
+**一個疾病一個R0?**
+
+母丟哦。同一個疾病在不同的地方會因為人口密度、風俗習慣、種族，有不同的R0
+
+**當R0 < 1，疫情就會被控制?**
+
+母丟哦。R0 < 1 疫情不會爆發，沒有控不控制的問題。一但爆發產生，就要改成看有交再生數 $R(t)$
 

@@ -31,3 +31,8 @@ output:
 
 - No. even for one disease, R0 varies by weather, crowdedness, setting specific behaviour, health systems, etc.
 
+
+**As R0 < 1, **
+- Incorrect. When R0 < 1, the disease would not outbreak. 
+
+

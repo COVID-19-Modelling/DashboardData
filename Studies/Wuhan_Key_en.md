@@ -1,11 +1,9 @@
-### R0 vs R(t)
+### Evidence before this study
+The basic reproductive number of the COVID-19 outbreak was estimated to be 2.2~3.8. One study had predicted that the outbreak would peak in early April if no interventions are implemented and all people are susceptible to COVID-19. Around 12th February, however, the daily notification of COVID-19 in China began to show slight signs of deceleration and overturning. Regarding policy assessment, studies showed that the lockdown policy, banning the inter-city or inter-province movement, only delayed the spreading by 3~5 days. The effects of lockdown and the social distancing policies on the endogenous outbreak size remain uncertain. 
 
-- the progress of an epidemic
+### Added value of this study
+We used a Bass-SIR model to estimate the contribution of exogenous (imported) and endogenous force of infection to the epidemic at the province-level during the three weeks after the lockdown of Wuhan city on 23rd January. We found that the endogenous transmission within most provinces dominated the epidemic by the end of the three-week period, suggesting that cutting down the transportation from Wuhan to other provinces was too late to prevent the epidemics in these provinces. Three weeks following the lockdown, we found that the effective reproduction numbers in most provinces were largely reduced and were approaching the value of one. We projected that the epidemic will hit its peak in most of the China provinces by the end of February 2020. Nonetheless, our scenario analysis cautioned that second-wave outbreaks would come back immediately if the current stringent control measures are lifted after the extended Lunar New Year holiday.
 
-### Effective population size
+### Implications of all the available evidence
+Our analysis suggested that the internal (cross-province) travel ban in China had limited impact on preventing the spread of COVID-19 from Wuhan to other provinces. The current stringent social distancing measures within cities appeared to be effective, but whether these rigorous control measures can be sustained in the upcoming weeks should be closely tracked.
 
-- how many people are potential infectees
-
-### Scenario analysis
-
-- what if all locations are massively lockdown 
