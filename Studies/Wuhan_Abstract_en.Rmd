@@ -1,3 +1,9 @@
+---
+output: 
+  html_document:
+    css: docs.css
+---
+
 **Background**: In response to the coronavirus disease 2019 (COVID-19) epidemic, the central government of China imposed a lockdown in the epicentre, Wuhan city of Hubei province. Timely assessment of the epidemic situations in Hubei, as well as other provinces, is urgently needed.
 
 **Methods**: We developed an empirical model based on a Bass-Susceptible-Infected-Recovered model to capture the COVID-19 epidemics in Chinese provinces and cities after Wuhan’s lockdown on 23rd January. Our model identified the province-specific transmission parameters, exogenous forces of infection, and effective population sizes using reported time-series between 24th January to 12th February. The model characterised the basic reproduction numbers and the trends of effective reproduction numbers. We forecasted future trends of COVID-19 under several policy scenarios immediately after 12th February. 

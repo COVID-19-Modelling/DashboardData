@@ -1,3 +1,10 @@
+---
+output: 
+  html_document:
+    css: docs.css
+---
+
+
 Effective reproduction size, R(t),是..., 有了 R(t)，就有了… 
 
 ## 研究目的

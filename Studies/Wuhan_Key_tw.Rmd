@@ -1,3 +1,10 @@
+---
+output: 
+  html_document:
+    css: docs.css
+---
+
+
 ### Evidence before this study
 The basic reproductive number of the COVID-19 outbreak was estimated to be 2.2~3.8. One study had predicted that the outbreak would peak in early April if no interventions are implemented and all people are susceptible to COVID-19. Around 12th February, however, the daily notification of COVID-19 in China began to show slight signs of deceleration and overturning. Regarding policy assessment, studies showed that the lockdown policy, banning the inter-city or inter-province movement, only delayed the spreading by 3~5 days. The effects of lockdown and the social distancing policies on the endogenous outbreak size remain uncertain. 
 
