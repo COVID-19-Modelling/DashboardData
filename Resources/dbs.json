@@ -18,5 +18,10 @@
   "Type": "Dashboard",
   "Name": "Coronaboard, South Korea",
   "Link": "https://coronaboard.kr/"
+},
+{
+  "Type": "Dashboard",
+  "Name": "Coronavirus report, SAS",
+  "Link": "https://tbub.sas.com/COVID19/?fbclid=IwAR1e3wa5lg2ov7uhRTTnGj7mky_8x_HIxV2fTkw22rfAov0bMH5qqgo4mdU"
 }
 ]

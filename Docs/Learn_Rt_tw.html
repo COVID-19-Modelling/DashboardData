@@ -381,40 +381,36 @@ $(document).ready(function () {
 <div id="t" class="section level4">
 <h4>在特定的時刻(<span class="math inline">\(t\)</span>)，一個有傳染力的新病人可以傳給多少人</h4>
 </div>
-<div id="why-is-this-important" class="section level3">
-<h3>Why is this important?</h3>
+<div id="section" class="section level3">
+<h3>為什麼重要呢?</h3>
 <ul>
-<li>R0 can help people having a quick understanding of the disease and taking actions as fast as possible.</li>
+<li>除了基本的傳染病特性, <span class="math inline">\(R(t)\)</span>還考慮有多少人還有機會被感染</li>
+<li><span class="math inline">\(R(t)\)</span> 告訴我們疫情是在升溫還是降溫中</li>
 </ul>
 </div>
-<div id="what-we-need-to-estimate-r0" class="section level3">
-<h3>What we need to estimate R0</h3>
-<p><strong>1. Contact and transmission: easier to transmit, larger R0</strong></p>
+<div id="rt" class="section level3">
+<h3>要注意的是<span class="math inline">\(R(t)\)</span>很容易被低估</h3>
 <ul>
-<li>How people usually contact
-<ul>
-<li>How people greeting</li>
-<li>How people travelling</li>
-</ul></li>
-<li>How the pathogen transmit
-<ul>
-<li>By air: wider spreading, sustaining shorter</li>
-<li>By aerosol: intermediate spreading, sustain longer<br />
-</li>
-<li>By close contacts: narrower spreading, pathogen survive according to surfaces</li>
-</ul></li>
-</ul>
-<p><strong>2. Disease duration: longer disease duration, larger R0</strong></p>
-<ul>
-<li>How long the treatment does need</li>
-<li>How deadly the disease is</li>
+<li>有些疾病會復發</li>
+<li>有些疾疾的抗體沒有絕對的抵抗力，兇抗體的人還是有可能被感染</li>
 </ul>
 </div>
-<div id="faq" class="section level3">
-<h3>FAQ</h3>
-<p><strong>Is there one R0 for one disease?</strong></p>
+<div id="rt-1" class="section level3">
+<h3>要估計<span class="math inline">\(R(t)\)</span>需要什麼資訊</h3>
 <ul>
-<li>No. even for one disease, R0 varies by weather, crowdedness, setting specific behaviour, health systems, etc.</li>
+<li>發生率的估計值(不是通報數哦)</li>
+<li>有症狀到隔離花多少時間</li>
+</ul>
+</div>
+<div id="section-1" class="section level3">
+<h3>常見問題</h3>
+<p><strong>當 <span class="math inline">\(R(t) &lt; 1\)</span>, 我們就安全了</strong></p>
+<ul>
+<li>難說. <span class="math inline">\(R(t) &lt; 1\)</span> 只是代表發生率開始下降，不代表傳播不再發生。</li>
+</ul>
+<p>** <span class="math inline">\(R(t)\)</span>只會下降嗎? **</p>
+<ul>
+<li>行為、天氣、醫療系統、還有很多因素的改變都可能讓<span class="math inline">\(R(t)\)</span>上升。</li>
 </ul>
 </div>
 

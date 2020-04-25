@@ -21,5 +21,5 @@ output:
 ### To be noted that, doubling time
 - does not consider the transmission components.
 - is only useful in the beginning of an epidemic
-- will be less useful when the herd immunity becomes significant (that is, the epi starts decelerating).
-- will go infinity when the epi is well-controlled
+- will be less useful when the herd immunity becomes significant (that is, the epidemic starts decelerating).
+- will go infinity when the epidemic is well-controlled

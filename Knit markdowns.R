@@ -15,8 +15,4 @@ for (file in files) {
 }
 
 
-files <- list.files(path="Studies", pattern="*.md", full.names=TRUE, recursive=FALSE)
 
-for (file in files) {
-  rmarkdown::render(file)
-}
