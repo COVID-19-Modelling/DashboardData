@@ -1,0 +1,35 @@
+---
+output: html_document
+---
+
+
+### Cap-SEIR model
+A Suscepitable-Exopsed-Infectious-Recovered (SEIR) model with the healthcare capacity consider an population is made of five types of people
+
+
+- $S$: number of people who can be infected
+- $E$: number of people who have been infected but not developed infectivity yet
+- $I$: number of infectious people who are seeking care
+- $H$: number of infectious people who have been identified (and isolated)
+
+
+The model is usually formulated as 
+
+$$ \frac{dS}{dt}=- \beta \frac{I}{N}S $$
+
+$$\frac{dE}{dt}=\beta \frac{I}{N}S - \tau E$$
+$$ \frac{dI}{dt}=\tau E - (1 - \frac{I}{C}) I - (\gamma + \mu) I $$
+$$ \frac{dH}{dt}=(1 - \frac{I}{C}) I - (\gamma + \mu) H $$
+
+, where $(1 - \frac{I}{C})$ will move toward 0 as $I$ reaching the capacity $C$.
+
+Only deaths and the recovered after $H$ will be documented.
+
+#### Parameters
+
+- $\tau$: the invasion of incubation period
+- $\beta$: transmission rate, per contact-day
+- $\gamma$: recovery rate, per day 
+- $\mu$: death rate, per day
+- $C$: Healthcare capacity 
+- $N$: population size of whom can be reached by the pathogen

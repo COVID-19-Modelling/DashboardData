@@ -20,7 +20,7 @@ $$ \frac{dI}{dt}=\tau E - (\gamma + \mu) I $$
 
 #### Parameters
 
-- $\tau$: the invasion of incubation period
+- $\tau$: the invasion of latent period
 - $\beta$: transmission rate, per contact-day
 - $\gamma$: recovery rate, per day 
 - $\mu$: death rate, per day
