@@ -1,0 +1,22 @@
+---
+output: 
+  html_document:
+    css: docs.css
+---
+
+
+#### The capacity of the healthcare system to provide services with trained medical teams and right equipments to provide the best chance of successful treatment. It also means having an infrastructure in place to provide people adequate access to healthcare facilities. 
+
+\
+
+### Why is it important in the COVID-19 pandemic?
+The healthcare system may collapse if there is a sharp increase in the number of infected patients. In the event of a rapid rise in coronavirus cases that are infected through respiratory droplets and contact routes, the demand of hospital and ICU beds will be increased and healthcare staff personal protective equipment (PPE) and patient care supplies will be shortage. An overwhelmed and collapsing healthcare system not only will increase the morbidity and mortality rates of COVID-19, but the burdens to public health, including crowding out effects on other patients who need hospital care and increased risk of hospital-acquired infection.
+
+\
+
+### How to avoid the collapse of a healthcare system?
+Several strategies will be critical for maintaining healthcare capacity during the COVID-19 pandemic. 
+
+1. Healthcare facilities and clinicians should prioritize urgent and emergency visits and procedures; postpone or reschedule elective and non-urgent admissions.
+2. To conserve healthcare staff personal protective equipment (PPE), including N95 respirators, surgical masks, eye protection, gloves, and long-sleeved gown, and to maintain the patient care supplies to ensure healthcare staff and patient safety. 
+3. To flatten the transmission curve by staggering the number of new cases over a longer period to help patients have better access to care and to prevent overburden the healthcare system. 

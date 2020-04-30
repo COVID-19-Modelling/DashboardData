@@ -6,6 +6,7 @@ output:
 
 #### **Doubling time** evaluates when the epi size will get doubled. 
 
+\
 
 ### Why is this important?
 - We can have a quick deadline for preparing and deploying resources.
