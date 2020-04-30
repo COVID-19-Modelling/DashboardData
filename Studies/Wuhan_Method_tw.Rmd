@@ -5,25 +5,44 @@ output:
 ---
 
 
-Effective reproduction size, R(t),是..., 有了 R(t)，就有了… 
 
 ## 研究目的
 
-- A
-- B
+此研究的時間在於武漢封城後二到三週的時間。在這期間，封城的行動迅速擴散到各個中國省份。我們想要回答一個問題。**在疾病爆發後，封城還有沒有效果?**。 
+
+## 模型
+
+$$I = (\frac{\beta I}{m} + \kappa )(m - I - R - D) - \gamma I $$
+
+- $\beta$ 項為省內的人傳人。
+- $\kappa$ 項則捕捉外來的傳播。
+- $m$ 則反應小區管制下的有效可染感人口數。
+- $m - I - R - D$, 除掉正在生病的($I$)、已復原($R$)、死亡($D$)後還可能被感染的人數。
 
 
-## 為什麼重要
+除了主要目標，我們使用這個模型
+
+1. 估計早期的傳播參數
+2. 測試預測準度
+3. 評估近未來的傳播
+
+
+## 與政策連結
+
+可對應的政策評估
+
+- 當 $\kappa = 0$, 該省份和外界的傳播完全阻斷。
+- $\beta$下降, 代表社交距離增加。
+- $m$下降，則表示小區管理的效果。
 
 
 ## 資料
 
-- Data A
-- Data B
+一月23日到二月12日間的**確診**，**復原**, **死亡**的時間序列。來自(CSSE)[https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series]
 
 
-## 方法
 
+## 相關文章
+Ku, Chu Chang and Ng, Ta-Chou and Lin, Hsien-Ho, Epidemiological Benchmarks of the COVID-19 Outbreak Control in China after Wuhan’s Lockdown: A Modelling Study with An Empirical Approach (February 25, 2020). Available at SSRN: https://ssrn.com/abstract=3544127 or http://dx.doi.org/10.2139/ssrn.3544127
 
-### 參考連結
-XXX 
+Fibich G. Bass-SIR model for diffusion of new products in social networks. Physical Review E. 2016 Sep 7;94(3):032305.

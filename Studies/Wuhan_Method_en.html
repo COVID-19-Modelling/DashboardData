@@ -378,20 +378,45 @@ $(document).ready(function () {
 </div>
 
 
-<p>This is a study for …</p>
-<div id="data" class="section level2">
-<h2>Data:</h2>
+<div id="research-aim" class="section level2">
+<h2>Research aim</h2>
+<p>The study was conducted two and three weeks after the Wuhan’s lockdown. During the period, the other provinces in China rapidly used lockdown as their major strategy. Our key question was: <strong>Afther outbreak happened in a province, does lockdown an effective mean for infection control?</strong></p>
+</div>
+<div id="model" class="section level2">
+<h2>Model</h2>
+<p><span class="math display">\[I = (\frac{\beta I}{m} + \kappa )(m - I - R - D) - \gamma I \]</span></p>
 <ul>
-<li>Data A</li>
-<li>Data B</li>
+<li><span class="math inline">\(\beta\)</span> capturs within province humen-to-humen transmission</li>
+<li><span class="math inline">\(\kappa\)</span> models the exogenous force of infection.</li>
+<li><span class="math inline">\(m\)</span> considers the population size adjusted for the small area control.<br />
+</li>
+<li><span class="math inline">\(m - I - R - D\)</span> is the population, excluding the infected(<span class="math inline">\(I\)</span>)、the recovered(<span class="math inline">\(R\)</span>)、the died (<span class="math inline">\(D\)</span>).</li>
+</ul>
+<p>Apart from the main objective, this model also</p>
+<ol style="list-style-type: decimal">
+<li>Estimated the transmission paramters in the early stage of the COVID-19 outbreak</li>
+<li>Validated the predictivity of this model</li>
+<li>Evaluated the transmission in the near future</li>
+</ol>
+</div>
+<div id="connecting-to-policy-making" class="section level2">
+<h2>Connecting to policy making</h2>
+<p>Based on this model</p>
+<ul>
+<li>When <span class="math inline">\(\kappa = 0\)</span>, the province is fully blocked form the outer.</li>
+<li>As <span class="math inline">\(\beta\)</span> decreasing, the social distancing is working.</li>
+<li>Lower <span class="math inline">\(m\)</span> compared to the actual population size, the small area control in China is working.</li>
 </ul>
 </div>
-<div id="why-is-this-important" class="section level2">
-<h2>Why is this important?</h2>
-<div id="reference" class="section level3">
-<h3>Reference</h3>
-<p>XXX</p>
+<div id="data" class="section level2">
+<h2>Data</h2>
+<p>The time-series of <strong>confirmed cases</strong>, <strong>recovered</strong>, <strong>deaths</strong> between 23th Jan to 12th Feb. </p>
+<p>The data source was (CSSE)[<a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series" class="uri">https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series</a>]</p>
 </div>
+<div id="reference" class="section level2">
+<h2>Reference</h2>
+<p>Ku, Chu Chang and Ng, Ta-Chou and Lin, Hsien-Ho, Epidemiological Benchmarks of the COVID-19 Outbreak Control in China after Wuhan’s Lockdown: A Modelling Study with An Empirical Approach (February 25, 2020). Available at SSRN: <a href="https://ssrn.com/abstract=3544127" class="uri">https://ssrn.com/abstract=3544127</a> or <a href="http://dx.doi.org/10.2139/ssrn.3544127" class="uri">http://dx.doi.org/10.2139/ssrn.3544127</a></p>
+<p>Fibich G. Bass-SIR model for diffusion of new products in social networks. Physical Review E. 2016 Sep 7;94(3):032305.</p>
 </div>
 
 

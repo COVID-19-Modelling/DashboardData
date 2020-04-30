@@ -5,22 +5,47 @@ output:
 ---
 
 
-This is a study for ...
+
+## Research aim
+
+The study was conducted two and three weeks after the Wuhan's lockdown. During the period, the other provinces in China rapidly used lockdown as their major strategy. Our key question was: **Afther outbreak happened in a province, does lockdown an effective mean for infection control?**
+ 
+
+## Model
+
+$$I = (\frac{\beta I}{m} + \kappa )(m - I - R - D) - \gamma I $$
+
+- $\beta$ capturs within province humen-to-humen transmission
+- $\kappa$ models the exogenous force of infection.
+- $m$ considers the population size adjusted for the small area control.  
+- $m - I - R - D$ is the population, excluding the infected($I$)、the recovered($R$)、the died ($D$).
 
 
-## Data:
+Apart from the main objective, this model also
 
-- Data A
-- Data B
-
-
-## Why is this important?
+1. Estimated the transmission paramters in the early stage of the COVID-19 outbreak
+2. Validated the predictivity of this model
+3. Evaluated the transmission in the near future
 
 
+## Connecting to policy making
+
+Based on this model
+
+- When $\kappa = 0$, the province is fully blocked form the outer.
+- As $\beta$ decreasing, the social distancing is working.
+- Lower $m$ compared to the actual population size, the small area control in China is working.
+
+
+## Data
+
+The time-series of **confirmed cases**, **recovered**, **deaths** between 23th Jan to 12th Feb. 
+
+The data source was (CSSE)[https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series]
 
 
 
+## Reference
+Ku, Chu Chang and Ng, Ta-Chou and Lin, Hsien-Ho, Epidemiological Benchmarks of the COVID-19 Outbreak Control in China after Wuhan’s Lockdown: A Modelling Study with An Empirical Approach (February 25, 2020). Available at SSRN: https://ssrn.com/abstract=3544127 or http://dx.doi.org/10.2139/ssrn.3544127
 
-
-### Reference
-XXX 
+Fibich G. Bass-SIR model for diffusion of new products in social networks. Physical Review E. 2016 Sep 7;94(3):032305.

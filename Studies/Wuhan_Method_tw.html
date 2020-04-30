@@ -378,30 +378,43 @@ $(document).ready(function () {
 </div>
 
 
-<p>Effective reproduction size, R(t),是…, 有了 R(t)，就有了…</p>
 <div id="section" class="section level2">
 <h2>研究目的</h2>
-<ul>
-<li>A</li>
-<li>B</li>
-</ul>
+<p>此研究的時間在於武漢封城後二到三週的時間。在這期間，封城的行動迅速擴散到各個中國省份。我們想要回答一個問題。<strong>在疾病爆發後，封城還有沒有效果?</strong>。</p>
 </div>
 <div id="section-1" class="section level2">
-<h2>為什麼重要</h2>
+<h2>模型</h2>
+<p><span class="math display">\[I = (\frac{\beta I}{m} + \kappa )(m - I - R - D) - \gamma I \]</span></p>
+<ul>
+<li><span class="math inline">\(\beta\)</span> 項為省內的人傳人。</li>
+<li><span class="math inline">\(\kappa\)</span> 項則捕捉外來的傳播。</li>
+<li><span class="math inline">\(m\)</span> 則反應小區管制下的有效可染感人口數。</li>
+<li><span class="math inline">\(m - I - R - D\)</span>, 除掉正在生病的(<span class="math inline">\(I\)</span>)、已復原(<span class="math inline">\(R\)</span>)、死亡(<span class="math inline">\(D\)</span>)後還可能被感染的人數。</li>
+</ul>
+<p>除了主要目標，我們使用這個模型</p>
+<ol style="list-style-type: decimal">
+<li>估計早期的傳播參數</li>
+<li>測試預測準度</li>
+<li>評估近未來的傳播</li>
+</ol>
 </div>
 <div id="section-2" class="section level2">
-<h2>資料</h2>
+<h2>與政策連結</h2>
+<p>可對應的政策評估</p>
 <ul>
-<li>Data A</li>
-<li>Data B</li>
+<li>當 <span class="math inline">\(\kappa = 0\)</span>, 該省份和外界的傳播完全阻斷。</li>
+<li><span class="math inline">\(\beta\)</span>下降, 代表社交距離增加。</li>
+<li><span class="math inline">\(m\)</span>下降，則表示小區管理的效果。</li>
 </ul>
 </div>
 <div id="section-3" class="section level2">
-<h2>方法</h2>
-<div id="section-4" class="section level3">
-<h3>參考連結</h3>
-<p>XXX</p>
+<h2>資料</h2>
+<p>一月23日到二月12日間的<strong>確診</strong>，<strong>復原</strong>, <strong>死亡</strong>的時間序列。來自(CSSE)[<a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series" class="uri">https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series</a>]</p>
 </div>
+<div id="section-4" class="section level2">
+<h2>相關文章</h2>
+<p>Ku, Chu Chang and Ng, Ta-Chou and Lin, Hsien-Ho, Epidemiological Benchmarks of the COVID-19 Outbreak Control in China after Wuhan’s Lockdown: A Modelling Study with An Empirical Approach (February 25, 2020). Available at SSRN: <a href="https://ssrn.com/abstract=3544127" class="uri">https://ssrn.com/abstract=3544127</a> or <a href="http://dx.doi.org/10.2139/ssrn.3544127" class="uri">http://dx.doi.org/10.2139/ssrn.3544127</a></p>
+<p>Fibich G. Bass-SIR model for diffusion of new products in social networks. Physical Review E. 2016 Sep 7;94(3):032305.</p>
 </div>
 
 
