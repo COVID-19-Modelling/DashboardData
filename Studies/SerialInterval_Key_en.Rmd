@@ -1,0 +1,50 @@
+---
+output: 
+  html_document:
+    css: docs.css
+---
+
+
+### Overview of COVID-19 in Taiwan
+
+This page provides key statistics summarizing the COVID-19 outbreak in Taiwan. 
+
+* __Total Confirmed__ :
+Total number of COVID-19 cases confirmed by RT-PCR (sychronized with Taiwan CDC website in real-time).
+
+* __Total Deaths__ :
+Total number of deaths due to COVID-19 in Taiwan.
+
+* __Serial Interval__ :
+The duration from the symptom onset of the index case to the symptom onset of secondary cases. The estimate is based on known transmission pairs, indentified through contact tracing.
+
+* __Effective Reproduction Number__ :
+The average number of subsequent infections produced by one recent confirmed COVID-19 case. 
+
+* __Imported Cases__ :
+The proportion of importation in the total conefirmed cases, in the past two weeks.
+
+* __Test Yield Rate__ :
+The positive rate of the subjects tested for COVID-19. Currently the test is exclusive to high-risk people with travel or contact history, and is carried out by RT-PCR.
+
+
+
+
+
+
+### Local Epidemiological Parameters
+
+
+Estimates of several epidemiological parameters in Taiwan can be found in the folowing tabs. The methods are summarized in the last tab.
+
+* __Epi Curve__ : 
+The time trend of COVID-19 cases with respect to their onset date or confirmed date. Time-varying effective reproduction numbers are also displyed in parallel. 
+
+* __Serial Interval__ :
+The duration from the symptom onset of the index case to the symptom onset of secondary cases. The data and the estimated distribution are shown in parallel.
+
+* __Incubation Period__ :
+The duration from infetion to  symptom onset. The data and the estimated distribution are shown in parallel.
+
+* __Onset to testing__ :
+The duration from symptom onset to testing for COVID-19. The data and the estimated distribution are shown in parallel.
